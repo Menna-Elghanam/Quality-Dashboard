@@ -29,44 +29,70 @@ function Dashboard() {
 
         {/* Card with Numeric Data */}
 
-        <div className="bg-white shadow rounded-lg p-4">
+        <div className="bg-white shadow rounded-lg p-6 space-y-6">
           {/* First Row */}
-          <div className="border rounded-lg p-4 flex justify-between items-center">
+          <div className="border rounded-lg p-6 flex justify-between items-start gap-6">
             {/* Column 1: Numeric Data */}
-            <div className="w-1/2 pr-2">
-              <h2 className="text-lg font-bold mb-2">Total Defects</h2>
-              <p className="text-2xl font-semibold">12</p>
+            <div className="w-1/2 pr-4 bg-[#FF6A55] rounded-lg text-white p-4 flex flex-col items-center justify-center">
+              <img src="/bug.png" alt="Bug Icon" className="w-12 h-12 mb-4" />
+              <h2 className="text-xl font-bold mb-2">Total Defects</h2>
+              <p className="text-3xl font-extrabold">12</p>
             </div>
+
             {/* Column 2: Additional Data */}
-            <div>
-              <div className="w-1/2 pl-2 flex gap-4">
-                <img src="/Group 44.png" alt="" />
-                <p className="text-2xl font-semibold">10</p>
-                <h2 className="text-lg font-bold mb-2">Total Holes</h2>
+            <div className="w-1/2 space-y-4">
+              <div className="flex items-center gap-4  p-4 rounded-lg">
+                <img
+                  src="/Group 44.png"
+                  alt="Holes Icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex gap-2 ">
+                  <p className="text-2xl font-extrabold text-[#FF6A55]">10</p>
+                  <h2 className="text-lg font-bold text-gray-700">
+                    Total Holes
+                  </h2>
+                </div>
               </div>
-              <div className="w-1/2 pl-2 flex gap-4">
-                <img src="/Group 48.png" alt="" />
+              <hr className="my-4 border-gray-300" />
 
-                <p className="text-2xl font-semibold">10</p>
-
-                <h2 className="text-lg font-bold mb-2">Total Folding</h2>
+              <div className="flex items-center gap-4  p-4 rounded-lg">
+                <img
+                  src="/Group 48.png"
+                  alt="Folding Icon"
+                  className="w-10 h-10"
+                />
+                <div className="flex gap-2 ">
+                  <p className="text-2xl font-extrabold text-[#FF6A55]">10</p>
+                  <h2 className="text-lg font-bold text-gray-700">
+                    Total Folding
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
 
           {/* Second Row */}
-          <div className="mt-4 grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-6">
             {/* Small Card 1 */}
-            <div className="bg-[#E6B454] shadow rounded-lg p-4">
-              <img src="/Group 44(1).png" alt="" />
+            <div className="bg-[#E6B454] shadow-lg rounded-lg p-6 text-white flex items-center gap-4">
+              <img src="/Group 44 (1).png" alt="" />
 
-              <h2 className="text-sm font-bold mb-2">7</h2>
-              <p className="text-lg font-medium">Warning</p>
+              <div>
+                <p className="text-lg font-medium">Warning</p>
+
+                <h2 className="text-3xl font-extrabold">7</h2>
+              </div>
             </div>
+
             {/* Small Card 2 */}
-            <div className="bg-[#33B8B0] shadow rounded-lg p-4">
-              <h2 className="text-sm font-bold mb-2">8</h2>
-              <p className="text-lg font-medium"> Clean Days</p>
+            <div className="bg-[#33B8B0] shadow-lg rounded-lg p-6 text-white flex items-center gap-4">
+              <img src="/fi-rr-shield-check.png" alt="" />
+              <div>
+                <p className="text-lg font-medium">Clean Days</p>
+
+                <h2 className="text-3xl font-extrabold">8</h2>
+              </div>
             </div>
           </div>
         </div>
