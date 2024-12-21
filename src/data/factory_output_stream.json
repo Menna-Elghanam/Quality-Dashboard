@@ -1,0 +1,3824 @@
+[
+  {
+    "ID": 1,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-01 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA1"
+  },
+  {
+    "ID": 2,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-01 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA2"
+  },
+  {
+    "ID": 3,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-01 03:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA3"
+  },
+  {
+    "ID": 4,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-01 04:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA4"
+  },
+  {
+    "ID": 5,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-01 06:26:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA5"
+  },
+  {
+    "ID": 6,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-02 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA6"
+  },
+  {
+    "ID": 7,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-02 01:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA7"
+  },
+  {
+    "ID": 8,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-02 01:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA8"
+  },
+  {
+    "ID": 9,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-03 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA9"
+  },
+  {
+    "ID": 10,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-03 01:02:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA10"
+  },
+  {
+    "ID": 11,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-03 01:57:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA11"
+  },
+  {
+    "ID": 12,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-03 03:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA12"
+  },
+  {
+    "ID": 13,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-03 05:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA13"
+  },
+  {
+    "ID": 14,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-04 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA14"
+  },
+  {
+    "ID": 15,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-04 01:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA15"
+  },
+  {
+    "ID": 16,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-04 02:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA16"
+  },
+  {
+    "ID": 17,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-05 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA17"
+  },
+  {
+    "ID": 18,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-05 01:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA18"
+  },
+  {
+    "ID": 19,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-06 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA19"
+  },
+  {
+    "ID": 20,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-06 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA20"
+  },
+  {
+    "ID": 21,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-07 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA21"
+  },
+  {
+    "ID": 22,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-07 00:57:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA22"
+  },
+  {
+    "ID": 23,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-07 02:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA23"
+  },
+  {
+    "ID": 24,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-07 03:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA24"
+  },
+  {
+    "ID": 25,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-07 05:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA25"
+  },
+  {
+    "ID": 26,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-08 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA26"
+  },
+  {
+    "ID": 27,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-08 00:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA27"
+  },
+  {
+    "ID": 28,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-09 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA28"
+  },
+  {
+    "ID": 29,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-09 01:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA29"
+  },
+  {
+    "ID": 30,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-09 03:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA30"
+  },
+  {
+    "ID": 31,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-09 04:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA31"
+  },
+  {
+    "ID": 32,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-09 06:10:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA32"
+  },
+  {
+    "ID": 33,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-10 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA33"
+  },
+  {
+    "ID": 34,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-10 01:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA34"
+  },
+  {
+    "ID": 35,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-10 02:15:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA35"
+  },
+  {
+    "ID": 36,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-11 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA36"
+  },
+  {
+    "ID": 37,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-11 01:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA37"
+  },
+  {
+    "ID": 38,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-11 03:17:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA38"
+  },
+  {
+    "ID": 39,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-11 03:57:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA39"
+  },
+  {
+    "ID": 40,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-12 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA40"
+  },
+  {
+    "ID": 41,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-12 00:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA41"
+  },
+  {
+    "ID": 42,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-12 01:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA42"
+  },
+  {
+    "ID": 43,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-12 03:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA43"
+  },
+  {
+    "ID": 44,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-13 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA44"
+  },
+  {
+    "ID": 45,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-13 01:28:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA45"
+  },
+  {
+    "ID": 46,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-13 02:17:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA46"
+  },
+  {
+    "ID": 47,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-13 03:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA47"
+  },
+  {
+    "ID": 48,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-13 05:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA48"
+  },
+  {
+    "ID": 49,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-14 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA49"
+  },
+  {
+    "ID": 50,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-14 01:20:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA50"
+  },
+  {
+    "ID": 51,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-14 02:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA51"
+  },
+  {
+    "ID": 52,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-14 03:10:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA52"
+  },
+  {
+    "ID": 53,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-14 03:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA53"
+  },
+  {
+    "ID": 54,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-15 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA54"
+  },
+  {
+    "ID": 55,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-15 01:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA55"
+  },
+  {
+    "ID": 56,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-15 02:15:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA56"
+  },
+  {
+    "ID": 57,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-16 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA57"
+  },
+  {
+    "ID": 58,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-16 01:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA58"
+  },
+  {
+    "ID": 59,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-16 02:25:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA59"
+  },
+  {
+    "ID": 60,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-16 03:27:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA60"
+  },
+  {
+    "ID": 61,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-16 04:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA61"
+  },
+  {
+    "ID": 62,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-17 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA62"
+  },
+  {
+    "ID": 63,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-17 01:06:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA63"
+  },
+  {
+    "ID": 64,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-17 02:05:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA64"
+  },
+  {
+    "ID": 65,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-17 02:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA65"
+  },
+  {
+    "ID": 66,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-17 03:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA66"
+  },
+  {
+    "ID": 67,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-18 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA67"
+  },
+  {
+    "ID": 68,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-18 01:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA68"
+  },
+  {
+    "ID": 69,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-18 02:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA69"
+  },
+  {
+    "ID": 70,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-18 03:17:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA70"
+  },
+  {
+    "ID": 71,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-18 05:10:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA71"
+  },
+  {
+    "ID": 72,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-19 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA72"
+  },
+  {
+    "ID": 73,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-19 01:28:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA73"
+  },
+  {
+    "ID": 74,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-19 03:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA74"
+  },
+  {
+    "ID": 75,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-20 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA75"
+  },
+  {
+    "ID": 76,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-20 00:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA76"
+  },
+  {
+    "ID": 77,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-20 02:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA77"
+  },
+  {
+    "ID": 78,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-21 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA78"
+  },
+  {
+    "ID": 79,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-21 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA79"
+  },
+  {
+    "ID": 80,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-21 03:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA80"
+  },
+  {
+    "ID": 81,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-21 04:07:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA81"
+  },
+  {
+    "ID": 82,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-21 05:08:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA82"
+  },
+  {
+    "ID": 83,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-22 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA83"
+  },
+  {
+    "ID": 84,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-22 00:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA84"
+  },
+  {
+    "ID": 85,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-22 02:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA85"
+  },
+  {
+    "ID": 86,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-22 04:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA86"
+  },
+  {
+    "ID": 87,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-22 05:27:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA87"
+  },
+  {
+    "ID": 88,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-23 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA88"
+  },
+  {
+    "ID": 89,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-23 01:22:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA89"
+  },
+  {
+    "ID": 90,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-23 02:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA90"
+  },
+  {
+    "ID": 91,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-23 04:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA91"
+  },
+  {
+    "ID": 92,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-23 06:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA92"
+  },
+  {
+    "ID": 93,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-24 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA93"
+  },
+  {
+    "ID": 94,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-24 02:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA94"
+  },
+  {
+    "ID": 95,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-25 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA95"
+  },
+  {
+    "ID": 96,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-25 01:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA96"
+  },
+  {
+    "ID": 97,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-25 03:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA97"
+  },
+  {
+    "ID": 98,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-25 05:04:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA98"
+  },
+  {
+    "ID": 99,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-25 06:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA99"
+  },
+  {
+    "ID": 100,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-26 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA100"
+  },
+  {
+    "ID": 101,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-26 01:26:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA101"
+  },
+  {
+    "ID": 102,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-26 02:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA102"
+  },
+  {
+    "ID": 103,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-26 04:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA103"
+  },
+  {
+    "ID": 104,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-26 05:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA104"
+  },
+  {
+    "ID": 105,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-27 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA105"
+  },
+  {
+    "ID": 106,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-27 00:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA106"
+  },
+  {
+    "ID": 107,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-27 02:19:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA107"
+  },
+  {
+    "ID": 108,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-27 03:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA108"
+  },
+  {
+    "ID": 109,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-27 03:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA109"
+  },
+  {
+    "ID": 110,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-28 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA110"
+  },
+  {
+    "ID": 111,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-28 01:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA111"
+  },
+  {
+    "ID": 112,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-28 02:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA112"
+  },
+  {
+    "ID": 113,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-29 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA113"
+  },
+  {
+    "ID": 114,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-07-29 00:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA114"
+  },
+  {
+    "ID": 115,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-30 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA115"
+  },
+  {
+    "ID": 116,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-07-30 01:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA116"
+  },
+  {
+    "ID": 117,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-31 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA117"
+  },
+  {
+    "ID": 118,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-31 01:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA118"
+  },
+  {
+    "ID": 119,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-07-31 03:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA119"
+  },
+  {
+    "ID": 120,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-01 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA120"
+  },
+  {
+    "ID": 121,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-01 01:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA121"
+  },
+  {
+    "ID": 122,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-01 01:57:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA122"
+  },
+  {
+    "ID": 123,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-01 02:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA123"
+  },
+  {
+    "ID": 124,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-02 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA124"
+  },
+  {
+    "ID": 125,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-02 01:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA125"
+  },
+  {
+    "ID": 126,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-03 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA126"
+  },
+  {
+    "ID": 127,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-03 01:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA127"
+  },
+  {
+    "ID": 128,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-03 03:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA128"
+  },
+  {
+    "ID": 129,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-04 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA129"
+  },
+  {
+    "ID": 130,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-04 01:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA130"
+  },
+  {
+    "ID": 131,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-04 03:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA131"
+  },
+  {
+    "ID": 132,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-04 04:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA132"
+  },
+  {
+    "ID": 133,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-04 06:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA133"
+  },
+  {
+    "ID": 134,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-05 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA134"
+  },
+  {
+    "ID": 135,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-05 00:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA135"
+  },
+  {
+    "ID": 136,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-05 01:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA136"
+  },
+  {
+    "ID": 137,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-05 02:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA137"
+  },
+  {
+    "ID": 138,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-06 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA138"
+  },
+  {
+    "ID": 139,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-06 01:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA139"
+  },
+  {
+    "ID": 140,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-06 02:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA140"
+  },
+  {
+    "ID": 141,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-06 03:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA141"
+  },
+  {
+    "ID": 142,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-07 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA142"
+  },
+  {
+    "ID": 143,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-07 01:25:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA143"
+  },
+  {
+    "ID": 144,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-07 03:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA144"
+  },
+  {
+    "ID": 145,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-07 03:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA145"
+  },
+  {
+    "ID": 146,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-08 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA146"
+  },
+  {
+    "ID": 147,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-08 00:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA147"
+  },
+  {
+    "ID": 148,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-08 02:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA148"
+  },
+  {
+    "ID": 149,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-08 03:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA149"
+  },
+  {
+    "ID": 150,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-08 05:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA150"
+  },
+  {
+    "ID": 151,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-09 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA151"
+  },
+  {
+    "ID": 152,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-09 01:45:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA152"
+  },
+  {
+    "ID": 153,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-09 03:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA153"
+  },
+  {
+    "ID": 154,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-09 03:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA154"
+  },
+  {
+    "ID": 155,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-10 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA155"
+  },
+  {
+    "ID": 156,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-10 01:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA156"
+  },
+  {
+    "ID": 157,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-10 02:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA157"
+  },
+  {
+    "ID": 158,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-10 04:52:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA158"
+  },
+  {
+    "ID": 159,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-10 06:26:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA159"
+  },
+  {
+    "ID": 160,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-11 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA160"
+  },
+  {
+    "ID": 161,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-11 01:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA161"
+  },
+  {
+    "ID": 162,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-11 01:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA162"
+  },
+  {
+    "ID": 163,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-11 02:35:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA163"
+  },
+  {
+    "ID": 164,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-11 03:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA164"
+  },
+  {
+    "ID": 165,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-12 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA165"
+  },
+  {
+    "ID": 166,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-12 00:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA166"
+  },
+  {
+    "ID": 167,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-13 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA167"
+  },
+  {
+    "ID": 168,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-13 01:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA168"
+  },
+  {
+    "ID": 169,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-14 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA169"
+  },
+  {
+    "ID": 170,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-14 00:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA170"
+  },
+  {
+    "ID": 171,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-14 01:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA171"
+  },
+  {
+    "ID": 172,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-14 03:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA172"
+  },
+  {
+    "ID": 173,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-15 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA173"
+  },
+  {
+    "ID": 174,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-15 00:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA174"
+  },
+  {
+    "ID": 175,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-15 02:02:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA175"
+  },
+  {
+    "ID": 176,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-15 04:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA176"
+  },
+  {
+    "ID": 177,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-15 04:45:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA177"
+  },
+  {
+    "ID": 178,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-16 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA178"
+  },
+  {
+    "ID": 179,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-16 00:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA179"
+  },
+  {
+    "ID": 180,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-17 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA180"
+  },
+  {
+    "ID": 181,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-17 01:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA181"
+  },
+  {
+    "ID": 182,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-17 03:27:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA182"
+  },
+  {
+    "ID": 183,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-17 04:19:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA183"
+  },
+  {
+    "ID": 184,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-18 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA184"
+  },
+  {
+    "ID": 185,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-18 01:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA185"
+  },
+  {
+    "ID": 186,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-18 03:28:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA186"
+  },
+  {
+    "ID": 187,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-18 04:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA187"
+  },
+  {
+    "ID": 188,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-18 05:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA188"
+  },
+  {
+    "ID": 189,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-19 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA189"
+  },
+  {
+    "ID": 190,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-19 01:04:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA190"
+  },
+  {
+    "ID": 191,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-19 01:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA191"
+  },
+  {
+    "ID": 192,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-19 03:25:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA192"
+  },
+  {
+    "ID": 193,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-19 04:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA193"
+  },
+  {
+    "ID": 194,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-20 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA194"
+  },
+  {
+    "ID": 195,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-20 01:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA195"
+  },
+  {
+    "ID": 196,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-20 03:35:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA196"
+  },
+  {
+    "ID": 197,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-21 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA197"
+  },
+  {
+    "ID": 198,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-21 01:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA198"
+  },
+  {
+    "ID": 199,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-22 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA199"
+  },
+  {
+    "ID": 200,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-22 00:35:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA200"
+  },
+  {
+    "ID": 201,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-22 01:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA201"
+  },
+  {
+    "ID": 202,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-22 02:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA202"
+  },
+  {
+    "ID": 203,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-22 02:35:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA203"
+  },
+  {
+    "ID": 204,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-23 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA204"
+  },
+  {
+    "ID": 205,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-23 01:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA205"
+  },
+  {
+    "ID": 206,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-23 02:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA206"
+  },
+  {
+    "ID": 207,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-23 03:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA207"
+  },
+  {
+    "ID": 208,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-24 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA208"
+  },
+  {
+    "ID": 209,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-24 01:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA209"
+  },
+  {
+    "ID": 210,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-25 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA210"
+  },
+  {
+    "ID": 211,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-25 00:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA211"
+  },
+  {
+    "ID": 212,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-25 02:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA212"
+  },
+  {
+    "ID": 213,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-26 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA213"
+  },
+  {
+    "ID": 214,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-26 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA214"
+  },
+  {
+    "ID": 215,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-26 02:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA215"
+  },
+  {
+    "ID": 216,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-26 03:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA216"
+  },
+  {
+    "ID": 217,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-27 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA217"
+  },
+  {
+    "ID": 218,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-27 01:35:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA218"
+  },
+  {
+    "ID": 219,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-27 02:12:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA219"
+  },
+  {
+    "ID": 220,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-27 03:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA220"
+  },
+  {
+    "ID": 221,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-27 04:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA221"
+  },
+  {
+    "ID": 222,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-28 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA222"
+  },
+  {
+    "ID": 223,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-28 01:26:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA223"
+  },
+  {
+    "ID": 224,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-28 02:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA224"
+  },
+  {
+    "ID": 225,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-28 03:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA225"
+  },
+  {
+    "ID": 226,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-29 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA226"
+  },
+  {
+    "ID": 227,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-29 01:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA227"
+  },
+  {
+    "ID": 228,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-30 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA228"
+  },
+  {
+    "ID": 229,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-30 01:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA229"
+  },
+  {
+    "ID": 230,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-30 01:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA230"
+  },
+  {
+    "ID": 231,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-08-30 03:20:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA231"
+  },
+  {
+    "ID": 232,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-31 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA232"
+  },
+  {
+    "ID": 233,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-31 01:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA233"
+  },
+  {
+    "ID": 234,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-08-31 02:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA234"
+  },
+  {
+    "ID": 235,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-31 04:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA235"
+  },
+  {
+    "ID": 236,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-08-31 05:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA236"
+  },
+  {
+    "ID": 237,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-01 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA237"
+  },
+  {
+    "ID": 238,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-01 01:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA238"
+  },
+  {
+    "ID": 239,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-01 03:15:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA239"
+  },
+  {
+    "ID": 240,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-02 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA240"
+  },
+  {
+    "ID": 241,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-02 01:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA241"
+  },
+  {
+    "ID": 242,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-03 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA242"
+  },
+  {
+    "ID": 243,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-03 01:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA243"
+  },
+  {
+    "ID": 244,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-03 02:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA244"
+  },
+  {
+    "ID": 245,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-03 03:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA245"
+  },
+  {
+    "ID": 246,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-04 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA246"
+  },
+  {
+    "ID": 247,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-04 01:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA247"
+  },
+  {
+    "ID": 248,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-04 02:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA248"
+  },
+  {
+    "ID": 249,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-04 03:52:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA249"
+  },
+  {
+    "ID": 250,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-04 05:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA250"
+  },
+  {
+    "ID": 251,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-05 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA251"
+  },
+  {
+    "ID": 252,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-05 01:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA252"
+  },
+  {
+    "ID": 253,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-06 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA253"
+  },
+  {
+    "ID": 254,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-06 01:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA254"
+  },
+  {
+    "ID": 255,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-07 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA255"
+  },
+  {
+    "ID": 256,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-07 00:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA256"
+  },
+  {
+    "ID": 257,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-07 02:20:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA257"
+  },
+  {
+    "ID": 258,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-07 04:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA258"
+  },
+  {
+    "ID": 259,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-07 05:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA259"
+  },
+  {
+    "ID": 260,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-08 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA260"
+  },
+  {
+    "ID": 261,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-08 01:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA261"
+  },
+  {
+    "ID": 262,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-08 03:47:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA262"
+  },
+  {
+    "ID": 263,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-08 05:07:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA263"
+  },
+  {
+    "ID": 264,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-09 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA264"
+  },
+  {
+    "ID": 265,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-09 00:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA265"
+  },
+  {
+    "ID": 266,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-10 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA266"
+  },
+  {
+    "ID": 267,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-10 01:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA267"
+  },
+  {
+    "ID": 268,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-10 03:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA268"
+  },
+  {
+    "ID": 269,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-10 05:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA269"
+  },
+  {
+    "ID": 270,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-10 05:57:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA270"
+  },
+  {
+    "ID": 271,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-11 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA271"
+  },
+  {
+    "ID": 272,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-11 01:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA272"
+  },
+  {
+    "ID": 273,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-11 02:07:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA273"
+  },
+  {
+    "ID": 274,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-11 03:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA274"
+  },
+  {
+    "ID": 275,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-12 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA275"
+  },
+  {
+    "ID": 276,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-12 00:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA276"
+  },
+  {
+    "ID": 277,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-13 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA277"
+  },
+  {
+    "ID": 278,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-13 00:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA278"
+  },
+  {
+    "ID": 279,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-14 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA279"
+  },
+  {
+    "ID": 280,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-14 01:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA280"
+  },
+  {
+    "ID": 281,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-15 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA281"
+  },
+  {
+    "ID": 282,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-15 01:06:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA282"
+  },
+  {
+    "ID": 283,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-15 01:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA283"
+  },
+  {
+    "ID": 284,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-15 02:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA284"
+  },
+  {
+    "ID": 285,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-15 03:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA285"
+  },
+  {
+    "ID": 286,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-16 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA286"
+  },
+  {
+    "ID": 287,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-16 01:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA287"
+  },
+  {
+    "ID": 288,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-17 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA288"
+  },
+  {
+    "ID": 289,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-17 01:02:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA289"
+  },
+  {
+    "ID": 290,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-17 02:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA290"
+  },
+  {
+    "ID": 291,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-17 03:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA291"
+  },
+  {
+    "ID": 292,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-17 04:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA292"
+  },
+  {
+    "ID": 293,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-18 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA293"
+  },
+  {
+    "ID": 294,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-18 01:08:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA294"
+  },
+  {
+    "ID": 295,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-19 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA295"
+  },
+  {
+    "ID": 296,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-19 01:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA296"
+  },
+  {
+    "ID": 297,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-19 02:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA297"
+  },
+  {
+    "ID": 298,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-19 03:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA298"
+  },
+  {
+    "ID": 299,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-20 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA299"
+  },
+  {
+    "ID": 300,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-20 00:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA300"
+  },
+  {
+    "ID": 301,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-20 02:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA301"
+  },
+  {
+    "ID": 302,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-20 03:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA302"
+  },
+  {
+    "ID": 303,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-21 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA303"
+  },
+  {
+    "ID": 304,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-21 01:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA304"
+  },
+  {
+    "ID": 305,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-21 03:05:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA305"
+  },
+  {
+    "ID": 306,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-21 04:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA306"
+  },
+  {
+    "ID": 307,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-21 05:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA307"
+  },
+  {
+    "ID": 308,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-22 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA308"
+  },
+  {
+    "ID": 309,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-22 01:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA309"
+  },
+  {
+    "ID": 310,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-22 03:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA310"
+  },
+  {
+    "ID": 311,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-23 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA311"
+  },
+  {
+    "ID": 312,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-23 01:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA312"
+  },
+  {
+    "ID": 313,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-23 02:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA313"
+  },
+  {
+    "ID": 314,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-24 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA314"
+  },
+  {
+    "ID": 315,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-24 00:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA315"
+  },
+  {
+    "ID": 316,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-24 02:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA316"
+  },
+  {
+    "ID": 317,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-25 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA317"
+  },
+  {
+    "ID": 318,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-25 00:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA318"
+  },
+  {
+    "ID": 319,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-25 02:18:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA319"
+  },
+  {
+    "ID": 320,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-09-26 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA320"
+  },
+  {
+    "ID": 321,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-26 00:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA321"
+  },
+  {
+    "ID": 322,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-26 01:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA322"
+  },
+  {
+    "ID": 323,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-26 03:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA323"
+  },
+  {
+    "ID": 324,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-27 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA324"
+  },
+  {
+    "ID": 325,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-27 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA325"
+  },
+  {
+    "ID": 326,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-28 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA326"
+  },
+  {
+    "ID": 327,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-28 00:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA327"
+  },
+  {
+    "ID": 328,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-28 02:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA328"
+  },
+  {
+    "ID": 329,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-28 03:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA329"
+  },
+  {
+    "ID": 330,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-29 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA330"
+  },
+  {
+    "ID": 331,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-29 01:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA331"
+  },
+  {
+    "ID": 332,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-09-29 03:23:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA332"
+  },
+  {
+    "ID": 333,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-29 03:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA333"
+  },
+  {
+    "ID": 334,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-29 05:06:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA334"
+  },
+  {
+    "ID": 335,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-30 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA335"
+  },
+  {
+    "ID": 336,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-09-30 01:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA336"
+  },
+  {
+    "ID": 337,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-01 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA337"
+  },
+  {
+    "ID": 338,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-01 01:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA338"
+  },
+  {
+    "ID": 339,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-02 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA339"
+  },
+  {
+    "ID": 340,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-02 01:06:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA340"
+  },
+  {
+    "ID": 341,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-02 02:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA341"
+  },
+  {
+    "ID": 342,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-02 04:10:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA342"
+  },
+  {
+    "ID": 343,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-03 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA343"
+  },
+  {
+    "ID": 344,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-03 01:05:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA344"
+  },
+  {
+    "ID": 345,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-03 02:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA345"
+  },
+  {
+    "ID": 346,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-04 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA346"
+  },
+  {
+    "ID": 347,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-04 01:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA347"
+  },
+  {
+    "ID": 348,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-05 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA348"
+  },
+  {
+    "ID": 349,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-05 00:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA349"
+  },
+  {
+    "ID": 350,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-05 01:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA350"
+  },
+  {
+    "ID": 351,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-06 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA351"
+  },
+  {
+    "ID": 352,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-06 01:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA352"
+  },
+  {
+    "ID": 353,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-07 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA353"
+  },
+  {
+    "ID": 354,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-07 01:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA354"
+  },
+  {
+    "ID": 355,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-08 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA355"
+  },
+  {
+    "ID": 356,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-08 00:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA356"
+  },
+  {
+    "ID": 357,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-09 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA357"
+  },
+  {
+    "ID": 358,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-09 01:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA358"
+  },
+  {
+    "ID": 359,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-09 03:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA359"
+  },
+  {
+    "ID": 360,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-09 04:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA360"
+  },
+  {
+    "ID": 361,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-09 06:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA361"
+  },
+  {
+    "ID": 362,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-10 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA362"
+  },
+  {
+    "ID": 363,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-10 00:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA363"
+  },
+  {
+    "ID": 364,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-11 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA364"
+  },
+  {
+    "ID": 365,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-11 01:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA365"
+  },
+  {
+    "ID": 366,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-11 02:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA366"
+  },
+  {
+    "ID": 367,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-11 04:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA367"
+  },
+  {
+    "ID": 368,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-12 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA368"
+  },
+  {
+    "ID": 369,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-12 00:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA369"
+  },
+  {
+    "ID": 370,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-12 02:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA370"
+  },
+  {
+    "ID": 371,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-12 03:45:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA371"
+  },
+  {
+    "ID": 372,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-12 05:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA372"
+  },
+  {
+    "ID": 373,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-13 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA373"
+  },
+  {
+    "ID": 374,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-13 00:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA374"
+  },
+  {
+    "ID": 375,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-13 02:12:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA375"
+  },
+  {
+    "ID": 376,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-14 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA376"
+  },
+  {
+    "ID": 377,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-14 01:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA377"
+  },
+  {
+    "ID": 378,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-14 02:27:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA378"
+  },
+  {
+    "ID": 379,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-15 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA379"
+  },
+  {
+    "ID": 380,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-15 01:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA380"
+  },
+  {
+    "ID": 381,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-15 02:24:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA381"
+  },
+  {
+    "ID": 382,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-15 04:14:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA382"
+  },
+  {
+    "ID": 383,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-15 05:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA383"
+  },
+  {
+    "ID": 384,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-16 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA384"
+  },
+  {
+    "ID": 385,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-16 01:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA385"
+  },
+  {
+    "ID": 386,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-16 02:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA386"
+  },
+  {
+    "ID": 387,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-16 03:04:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA387"
+  },
+  {
+    "ID": 388,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-17 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA388"
+  },
+  {
+    "ID": 389,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-17 01:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA389"
+  },
+  {
+    "ID": 390,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-17 02:20:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA390"
+  },
+  {
+    "ID": 391,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-17 03:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA391"
+  },
+  {
+    "ID": 392,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-17 04:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA392"
+  },
+  {
+    "ID": 393,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-18 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA393"
+  },
+  {
+    "ID": 394,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-18 01:26:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA394"
+  },
+  {
+    "ID": 395,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-19 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA395"
+  },
+  {
+    "ID": 396,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-19 00:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA396"
+  },
+  {
+    "ID": 397,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-19 01:51:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA397"
+  },
+  {
+    "ID": 398,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-19 02:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA398"
+  },
+  {
+    "ID": 399,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-20 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA399"
+  },
+  {
+    "ID": 400,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-20 01:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA400"
+  },
+  {
+    "ID": 401,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-20 03:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA401"
+  },
+  {
+    "ID": 402,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-20 04:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA402"
+  },
+  {
+    "ID": 403,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-20 05:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA403"
+  },
+  {
+    "ID": 404,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-21 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA404"
+  },
+  {
+    "ID": 405,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-21 01:03:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA405"
+  },
+  {
+    "ID": 406,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-21 02:23:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA406"
+  },
+  {
+    "ID": 407,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-21 03:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA407"
+  },
+  {
+    "ID": 408,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-22 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA408"
+  },
+  {
+    "ID": 409,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-22 01:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA409"
+  },
+  {
+    "ID": 410,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-22 03:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA410"
+  },
+  {
+    "ID": 411,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-22 03:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA411"
+  },
+  {
+    "ID": 412,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-23 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA412"
+  },
+  {
+    "ID": 413,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-23 01:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA413"
+  },
+  {
+    "ID": 414,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-23 02:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA414"
+  },
+  {
+    "ID": 415,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-23 04:05:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA415"
+  },
+  {
+    "ID": 416,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-24 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA416"
+  },
+  {
+    "ID": 417,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-24 01:04:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA417"
+  },
+  {
+    "ID": 418,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-24 02:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA418"
+  },
+  {
+    "ID": 419,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-25 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA419"
+  },
+  {
+    "ID": 420,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-25 00:52:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA420"
+  },
+  {
+    "ID": 421,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-26 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA421"
+  },
+  {
+    "ID": 422,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-26 01:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA422"
+  },
+  {
+    "ID": 423,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-26 03:07:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA423"
+  },
+  {
+    "ID": 424,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-26 03:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA424"
+  },
+  {
+    "ID": 425,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-26 04:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA425"
+  },
+  {
+    "ID": 426,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-27 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA426"
+  },
+  {
+    "ID": 427,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-27 01:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA427"
+  },
+  {
+    "ID": 428,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-27 03:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA428"
+  },
+  {
+    "ID": 429,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-27 05:22:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA429"
+  },
+  {
+    "ID": 430,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-28 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA430"
+  },
+  {
+    "ID": 431,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-28 01:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA431"
+  },
+  {
+    "ID": 432,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-28 03:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA432"
+  },
+  {
+    "ID": 433,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-28 04:25:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA433"
+  },
+  {
+    "ID": 434,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-29 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA434"
+  },
+  {
+    "ID": 435,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-29 00:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA435"
+  },
+  {
+    "ID": 436,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-29 01:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA436"
+  },
+  {
+    "ID": 437,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-29 02:40:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA437"
+  },
+  {
+    "ID": 438,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-30 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA438"
+  },
+  {
+    "ID": 439,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-30 00:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA439"
+  },
+  {
+    "ID": 440,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-10-30 01:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA440"
+  },
+  {
+    "ID": 441,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-30 02:42:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA441"
+  },
+  {
+    "ID": 442,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-10-30 03:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA442"
+  },
+  {
+    "ID": 443,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-31 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA443"
+  },
+  {
+    "ID": 444,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-10-31 01:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA444"
+  },
+  {
+    "ID": 445,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-01 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA445"
+  },
+  {
+    "ID": 446,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-01 01:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA446"
+  },
+  {
+    "ID": 447,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-01 02:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA447"
+  },
+  {
+    "ID": 448,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-01 04:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA448"
+  },
+  {
+    "ID": 449,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-02 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA449"
+  },
+  {
+    "ID": 450,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-02 01:08:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA450"
+  },
+  {
+    "ID": 451,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-02 02:47:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA451"
+  },
+  {
+    "ID": 452,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-03 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA452"
+  },
+  {
+    "ID": 453,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-03 01:16:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA453"
+  },
+  {
+    "ID": 454,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-04 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA454"
+  },
+  {
+    "ID": 455,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-04 01:56:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA455"
+  },
+  {
+    "ID": 456,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-04 03:31:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA456"
+  },
+  {
+    "ID": 457,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-05 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA457"
+  },
+  {
+    "ID": 458,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-05 01:39:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA458"
+  },
+  {
+    "ID": 459,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-06 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA459"
+  },
+  {
+    "ID": 460,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-06 01:30:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA460"
+  },
+  {
+    "ID": 461,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-06 02:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA461"
+  },
+  {
+    "ID": 462,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-06 04:27:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA462"
+  },
+  {
+    "ID": 463,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-07 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA463"
+  },
+  {
+    "ID": 464,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-07 00:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA464"
+  },
+  {
+    "ID": 465,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-07 01:28:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA465"
+  },
+  {
+    "ID": 466,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-08 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA466"
+  },
+  {
+    "ID": 467,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-08 00:58:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA467"
+  },
+  {
+    "ID": 468,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-08 02:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA468"
+  },
+  {
+    "ID": 469,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-09 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA469"
+  },
+  {
+    "ID": 470,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-09 01:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA470"
+  },
+  {
+    "ID": 471,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-10 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA471"
+  },
+  {
+    "ID": 472,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-10 01:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA472"
+  },
+  {
+    "ID": 473,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-10 02:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA473"
+  },
+  {
+    "ID": 474,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-11 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA474"
+  },
+  {
+    "ID": 475,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-11 01:19:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA475"
+  },
+  {
+    "ID": 476,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-11 02:10:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA476"
+  },
+  {
+    "ID": 477,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-11 03:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA477"
+  },
+  {
+    "ID": 478,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-12 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA478"
+  },
+  {
+    "ID": 479,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-12 00:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA479"
+  },
+  {
+    "ID": 480,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-12 02:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA480"
+  },
+  {
+    "ID": 481,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-12 04:23:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA481"
+  },
+  {
+    "ID": 482,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-12 06:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA482"
+  },
+  {
+    "ID": 483,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-13 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA483"
+  },
+  {
+    "ID": 484,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-13 01:13:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA484"
+  },
+  {
+    "ID": 485,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-13 03:06:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA485"
+  },
+  {
+    "ID": 486,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-13 04:15:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA486"
+  },
+  {
+    "ID": 487,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-14 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA487"
+  },
+  {
+    "ID": 488,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-14 01:47:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA488"
+  },
+  {
+    "ID": 489,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-14 03:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA489"
+  },
+  {
+    "ID": 490,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-15 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA490"
+  },
+  {
+    "ID": 491,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-15 01:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA491"
+  },
+  {
+    "ID": 492,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-15 02:48:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA492"
+  },
+  {
+    "ID": 493,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-15 04:05:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA493"
+  },
+  {
+    "ID": 494,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-16 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA494"
+  },
+  {
+    "ID": 495,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-16 00:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA495"
+  },
+  {
+    "ID": 496,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-16 02:32:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA496"
+  },
+  {
+    "ID": 497,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-17 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA497"
+  },
+  {
+    "ID": 498,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-17 01:59:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA498"
+  },
+  {
+    "ID": 499,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-18 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA499"
+  },
+  {
+    "ID": 500,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-18 01:12:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA500"
+  },
+  {
+    "ID": 501,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-18 01:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA501"
+  },
+  {
+    "ID": 502,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-19 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA502"
+  },
+  {
+    "ID": 503,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-19 01:12:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA503"
+  },
+  {
+    "ID": 504,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-19 02:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA504"
+  },
+  {
+    "ID": 505,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-19 04:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA505"
+  },
+  {
+    "ID": 506,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-20 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA506"
+  },
+  {
+    "ID": 507,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-20 01:53:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA507"
+  },
+  {
+    "ID": 508,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-20 03:46:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA508"
+  },
+  {
+    "ID": 509,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-20 05:01:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA509"
+  },
+  {
+    "ID": 510,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-21 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA510"
+  },
+  {
+    "ID": 511,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-21 01:45:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA511"
+  },
+  {
+    "ID": 512,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-21 03:21:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA512"
+  },
+  {
+    "ID": 513,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-21 04:19:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA513"
+  },
+  {
+    "ID": 514,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-21 05:55:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA514"
+  },
+  {
+    "ID": 515,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-22 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA515"
+  },
+  {
+    "ID": 516,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-22 02:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA516"
+  },
+  {
+    "ID": 517,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-22 02:33:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA517"
+  },
+  {
+    "ID": 518,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-23 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA518"
+  },
+  {
+    "ID": 519,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-23 01:44:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA519"
+  },
+  {
+    "ID": 520,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-23 02:50:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA520"
+  },
+  {
+    "ID": 521,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-23 03:38:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA521"
+  },
+  {
+    "ID": 522,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-23 05:11:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA522"
+  },
+  {
+    "ID": 523,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-24 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA523"
+  },
+  {
+    "ID": 524,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-24 01:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA524"
+  },
+  {
+    "ID": 525,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-24 03:54:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA525"
+  },
+  {
+    "ID": 526,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-25 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA526"
+  },
+  {
+    "ID": 527,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-25 00:49:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA527"
+  },
+  {
+    "ID": 528,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-25 01:37:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA528"
+  },
+  {
+    "ID": 529,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-26 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA529"
+  },
+  {
+    "ID": 530,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-26 00:52:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA530"
+  },
+  {
+    "ID": 531,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-26 01:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA531"
+  },
+  {
+    "ID": 532,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-27 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA532"
+  },
+  {
+    "ID": 533,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-27 00:43:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA533"
+  },
+  {
+    "ID": 534,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-28 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA534"
+  },
+  {
+    "ID": 535,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-28 01:36:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA535"
+  },
+  {
+    "ID": 536,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-28 02:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA536"
+  },
+  {
+    "ID": 537,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-29 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA537"
+  },
+  {
+    "ID": 538,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-29 00:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA538"
+  },
+  {
+    "ID": 539,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-29 02:09:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA539"
+  },
+  {
+    "ID": 540,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-29 03:45:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA540"
+  },
+  {
+    "ID": 541,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-29 04:29:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA541"
+  },
+  {
+    "ID": 542,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-30 00:00:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA542"
+  },
+  {
+    "ID": 543,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-30 01:34:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA543"
+  },
+  {
+    "ID": 544,
+    "Category": "Defect",
+    "Type": "Holes",
+    "DateTimestamp": "2024-11-30 02:08:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA544"
+  },
+  {
+    "ID": 545,
+    "Category": "Defect",
+    "Type": "Folding",
+    "DateTimestamp": "2024-11-30 03:20:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA545"
+  },
+  {
+    "ID": 546,
+    "Category": "Warning",
+    "Type": "Glow",
+    "DateTimestamp": "2024-11-30 04:41:00",
+    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA546"
+  }
+]

@@ -1,22 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PieChart from "../components/PieChart";
 import LineChart from "../components/LineChart";
 import Heatmap from "../components/Heatmap";
-
+import data from "../data/factory_output_stream_full_year.json";
 
 function Dashboard() {
   return (
-    <div className="h-screen overflow-y-auto bg-gray-100">
-      {/* Navigation Tabs */}
-      <div className="sticky top-0 bg-white shadow-md z-10 p-4 flex justify-center">
-        <Link to="/">
-          <button>Home</button>
-        </Link>
-        <Link to="/records">
-          <button>Records</button>
-        </Link>
-      </div>
+    <div className="h-screen  ">
+      {/* Logo will be Here */}
 
       {/* First Row */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
@@ -40,7 +31,7 @@ function Dashboard() {
             <div className="w-1/2 pr-4 bg-[#FF6A55] rounded-l-lg text-white p-8 flex flex-col items-center justify-center h-full">
               <img src="/bug.png" alt="Bug Icon" className="w-16 h-16 mb-6" />
               <h2 className="text-2xl font-bold mb-4">Total Defects</h2>
-              <p className="text-4xl font-extrabold">12</p>
+              <p className="text-4xl font-extrabold">{data.filter((item) => item.Category === "Defect").length}</p>
             </div>
 
             {/* Column 2: Additional Data */}
@@ -52,7 +43,7 @@ function Dashboard() {
                   className="w-12 h-12"
                 />
                 <div className="flex gap-3">
-                  <p className="text-3xl font-extrabold text-[#FF6A55]">10</p>
+                  <p className="text-3xl font-extrabold text-[#FF6A55]">{data.filter((item) => item.Type === "Holes").length}</p>
                   <h2 className="text-xl font-bold text-gray-700">
                     Total Holes
                   </h2>
@@ -68,7 +59,7 @@ function Dashboard() {
                   className="w-12 h-12"
                 />
                 <div className="flex gap-3">
-                  <p className="text-3xl font-extrabold text-[#FF6A55]">10</p>
+                  <p className="text-3xl font-extrabold text-[#FF6A55]">{data.filter((item) => item.Type === "Folding").length}</p>
                   <h2 className="text-xl font-bold text-gray-700">
                     Total Folding
                   </h2>
@@ -84,7 +75,7 @@ function Dashboard() {
               <img src="/Group 44 (1).png" alt="" className="w-16 h-16" />
               <div>
                 <p className="text-xl font-medium mb-2">Warning</p>
-                <h2 className="text-4xl font-extrabold">7</h2>
+                <h2 className="text-4xl font-extrabold">{data.filter((item) => item.Category === "Warning").length}</h2>
               </div>
             </div>
 
@@ -105,21 +96,20 @@ function Dashboard() {
         {/* Card 1 */}
         <div className="bg-white shadow rounded-lg p-4 ">
           <h2 className="text-lg font-bold mb-2">Line Chart</h2>
-          <LineChart className=""/>
+          <LineChart data={data} />
         </div>
 
         {/* Card 2 */}
         <div className="bg-white shadow rounded-lg p-4">
           <h2 className="text-lg font-bold mb-2">Pie Chart</h2>
-          <PieChart/>
+          <PieChart data={data} />
         </div>
       </div>
 
       {/* Third Row */}
-      <div className="p-4">
+      <div>
         <div className="bg-white shadow rounded-lg p-4">
-          <h2 className="text-lg font-bold mb-2">Defects Heatmap</h2>
-          <Heatmap/>
+          <Heatmap rawData={data} />
         </div>
       </div>
     </div>

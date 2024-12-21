@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Pie } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -11,18 +11,12 @@ import {
 // Register chart.js components
 ChartJS.register(CategoryScale, ArcElement, Tooltip, Legend);
 
-const PieChart = () => {
-  const [dataList, setDataList] = useState([]);
+const PieChart = ({ data }) => {
 
-  useEffect(() => {
-    fetch("/src/data/dummy.json")
-      .then((response) => response.json())
-      .then((data) => setDataList(data))
-      .catch((error) => console.error("Error loading data:", error));
-  }, []);
+
 
   // Process data for the Pie chart (Count categories)
-  const typeCounts = dataList.reduce((acc, item) => {
+  const typeCounts = data.reduce((acc, item) => {
     acc[item.Type] = (acc[item.Type] || 0) + 1;
     return acc;
   }, {});
