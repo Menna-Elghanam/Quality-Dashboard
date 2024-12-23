@@ -26,6 +26,14 @@ const columns = [
   { name: "Image", uid: "Image" },
 ];
 
+const rowsPerPageOptions = [
+  { key: "5", value: 5 },
+  { key: "10", value: 10 },
+  { key: "15", value: 15 },
+  { key: "20", value: 20 },
+  { key: "25", value: 25 },
+];
+
 export default function Records() {
   const [filterValue, setFilterValue] = useState("");
   const [statusFilter, setStatusFilter] = useState(new Set());
@@ -78,17 +86,18 @@ export default function Records() {
     return sortedItems.slice(start, end);
   }, [page, rowsPerPage, sortedItems]);
 
+  const handleRowsPerPageChange = (value) => {
+    setRowsPerPage(Number(value));
+    setPage(1); // Reset to first page when changing rows per page
+  };
+
   const renderCell = (item, columnKey) => {
     switch (columnKey) {
       case "Category":
         return (
           <span
             className={`px-2 py-1 rounded-full text-sm font-medium
-            ${
-              item[columnKey] === "Warning"
-                ? "bg-yellow-100 text-yellow-800"
-                : ""
-            }
+            ${item[columnKey] === "Warning" ? "bg-yellow-100 text-yellow-800" : ""}
             ${item[columnKey] === "Defect" ? "bg-red-100 text-red-800" : ""}`}
           >
             {item[columnKey]}
@@ -110,7 +119,6 @@ export default function Records() {
         return <span className="text-sm">{item[columnKey]}</span>;
     }
   };
-  // <div className="max-w-6xl mx-auto p-6 bg-white rounded-lg shadow-lg">
 
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg">
@@ -140,31 +148,55 @@ export default function Records() {
           />
         </div>
 
-        <Dropdown>
-          <DropdownTrigger>
-            <Button
-              size="sm"
-              variant="flat"
-              className="bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors duration-200"
+        <div className="flex gap-2">
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                size="sm"
+                variant="flat"
+                className="bg-gray-50 text-gray-600 hover:bg-gray-100 transition-colors duration-200"
+              >
+              Rows Per Page :  {rowsPerPage}  
+              </Button>
+            </DropdownTrigger>
+            <DropdownMenu
+              aria-label="Rows per page"
+              onAction={(key) => handleRowsPerPageChange(key)}
             >
-              Filter by Category
-            </Button>
-          </DropdownTrigger>
-          <DropdownMenu
-            disallowEmptySelection={false}
-            aria-label="Filter by Category"
-            selectedKeys={statusFilter}
-            selectionMode="multiple"
-            onSelectionChange={(keys) => setStatusFilter(new Set(keys))}
-          >
-            <DropdownItem key="Warning" className="text-yellow-600">
-              Warning
-            </DropdownItem>
-            <DropdownItem key="Defect" className="text-red-600">
-              Defect
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
+              {rowsPerPageOptions.map((option) => (
+                <DropdownItem key={option.key}>
+                  {option.value} rows
+                </DropdownItem>
+              ))}
+            </DropdownMenu>
+          </Dropdown>
+
+          <Dropdown>
+            <DropdownTrigger>
+              <Button
+                size="sm"
+                variant="flat"
+                className="bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors duration-200"
+              >
+                Filter by Category
+              </Button>
+            </DropdownTrigger>
+            <DropdownMenu
+              disallowEmptySelection={false}
+              aria-label="Filter by Category"
+              selectedKeys={statusFilter}
+              selectionMode="multiple"
+              onSelectionChange={(keys) => setStatusFilter(new Set(keys))}
+            >
+              <DropdownItem key="Warning" className="text-yellow-600">
+                Warning
+              </DropdownItem>
+              <DropdownItem key="Defect" className="text-red-600">
+                Defect
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </div>
       </div>
 
       <div className="border rounded-lg overflow-hidden">
@@ -173,6 +205,7 @@ export default function Records() {
           sortDescriptor={sortDescriptor}
           onSortChange={setSortDescriptor}
           className="min-w-full"
+          
         >
           <TableHeader columns={columns}>
             {(column) => (
@@ -213,7 +246,7 @@ export default function Records() {
           page={page}
           total={pages}
           onChange={setPage}
-          className="flex gap-2"
+          className="flex gap-2 "
         />
       </div>
     </div>

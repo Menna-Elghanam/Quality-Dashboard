@@ -56,7 +56,7 @@ const LineChart = ({ data }) => {
         label: "Warnings",
         data: chartData.Warning,
         borderColor: "#022859",
-        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        backgroundColor: "#ffffff",
         borderWidth: 2,
         tension: 0.4, // Smooth line
       },

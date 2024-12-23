@@ -26,7 +26,7 @@ const App = () => {
   return (
     <Tabs aria-label="Options" variant="underlined">
       <Tab key="Dashboard" title="Dashboard">
-        <Dashboard />
+        <Dashboard className="flex justify-center" />
       </Tab>
       <Tab key="Records" title="Records">
         <Records />
