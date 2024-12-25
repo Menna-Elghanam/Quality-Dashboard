@@ -44,6 +44,20 @@ export default function Records() {
     direction: "ascending",
   });
 
+    // useLayoutEffect(() => {
+    //   // console.log("App mounted");
+  
+    //   // post("/webhook", {
+    //   //   event : "defect-created",
+    //   //   payload : {}
+    //   // }).then((response) => {
+    //   //   //TODO : change the state of the component
+    //   // });
+  
+  
+  
+    // }, []);
+
   const pages = Math.ceil(data.length / rowsPerPage);
   const normalizeDate = (dateTime) => dateTime.split(" ")[0];
 

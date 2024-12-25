@@ -9,7 +9,9 @@ export default {
 
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      sans: ['Inter', 'sans-serif'], // Custom sans-serif font
+    }},
   },
   darkMode: "class",
   plugins: [nextui()]
