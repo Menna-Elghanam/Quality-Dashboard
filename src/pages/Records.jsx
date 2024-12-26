@@ -13,6 +13,12 @@ import {
   DropdownMenu,
   DropdownItem,
   Pagination,
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  useDisclosure,
 } from "@nextui-org/react";
 
 // Import JSON data
@@ -39,24 +45,25 @@ export default function Records() {
   const [statusFilter, setStatusFilter] = useState(new Set());
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [page, setPage] = useState(1);
+  const [selectedImage, setSelectedImage] = useState(null); //to store the currently selected image URL
+  const { isOpen, onOpen, onClose } = useDisclosure(); //hook to manage the modal's open/close state
+
   const [sortDescriptor, setSortDescriptor] = useState({
     column: "ID",
     direction: "ascending",
   });
 
-    // useLayoutEffect(() => {
-    //   // console.log("App mounted");
-  
-    //   // post("/webhook", {
-    //   //   event : "defect-created",
-    //   //   payload : {}
-    //   // }).then((response) => {
-    //   //   //TODO : change the state of the component
-    //   // });
-  
-  
-  
-    // }, []);
+  // useLayoutEffect(() => {
+  //   // console.log("App mounted");
+
+  //   // post("/webhook", {
+  //   //   event : "defect-created",
+  //   //   payload : {}
+  //   // }).then((response) => {
+  //   //   //TODO : change the state of the component
+  //   // });
+
+  // }, []);
 
   const pages = Math.ceil(data.length / rowsPerPage);
   const normalizeDate = (dateTime) => dateTime.split(" ")[0];
@@ -104,6 +111,10 @@ export default function Records() {
     setRowsPerPage(Number(value));
     setPage(1); // Reset to first page when changing rows per page
   };
+  const handleImageClick = (imageUrl) => {
+    setSelectedImage(imageUrl);
+    onOpen();
+  };
 
   const renderCell = (item, columnKey) => {
     switch (columnKey) {
@@ -111,7 +122,11 @@ export default function Records() {
         return (
           <span
             className={`px-2 py-1 rounded-full text-sm font-medium
-            ${item[columnKey] === "Warning" ? "bg-yellow-100 text-yellow-800" : ""}
+            ${
+              item[columnKey] === "Warning"
+                ? "bg-yellow-100 text-yellow-800"
+                : ""
+            }
             ${item[columnKey] === "Defect" ? "bg-red-100 text-red-800" : ""}`}
           >
             {item[columnKey]}
@@ -123,7 +138,8 @@ export default function Records() {
             <img
               src={item[columnKey]}
               alt="Preview"
-              className="w-12 h-12 rounded object-cover shadow-sm hover:shadow-md transition-shadow duration-200"
+              className="w-12 h-12 rounded object-cover shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
+              onClick={() => handleImageClick(item[columnKey])}
             />
           </div>
         );
@@ -170,7 +186,7 @@ export default function Records() {
                 variant="flat"
                 className="bg-gray-50 text-gray-600 hover:bg-gray-100 transition-colors duration-200"
               >
-              Rows Per Page :  {rowsPerPage}  
+                Rows Per Page : {rowsPerPage}
               </Button>
             </DropdownTrigger>
             <DropdownMenu
@@ -219,7 +235,6 @@ export default function Records() {
           sortDescriptor={sortDescriptor}
           onSortChange={setSortDescriptor}
           className="min-w-full"
-          
         >
           <TableHeader columns={columns}>
             {(column) => (
@@ -263,6 +278,31 @@ export default function Records() {
           className="flex gap-2 "
         />
       </div>
+      <Modal isOpen={isOpen} onClose={onClose} size="2xl">
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                Defect Preview
+              </ModalHeader>
+              <ModalBody>
+                <div className="flex justify-center">
+                  <img
+                    src={selectedImage}
+                    alt="Full size preview"
+                    className="max-w-full h-auto rounded-lg"
+                  />
+                </div>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
     </div>
   );
 }

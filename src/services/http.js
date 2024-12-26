@@ -1,5 +1,4 @@
 import axios from "axios";
-import { Import } from "lucide-react";
 
 const http = axios.create({
   baseURL: import.meta.env.VITE_APP_BACKEND_URL,

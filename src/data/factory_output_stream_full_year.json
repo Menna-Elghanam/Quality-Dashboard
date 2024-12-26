@@ -4,42 +4,42 @@
     "Category": "Warning",
     "Type": "Glow",
     "DateTimestamp": "2024-01-01 00:00:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA1"
+    "Image": "https://i.pravatar.cc/150?u=a042581f4e29026704d"
   },
   {
     "ID": 2,
     "Category": "Defect",
     "Type": "Folding",
     "DateTimestamp": "2024-01-01 00:52:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA2"
+    "Image": "https://i.pravatar.cc/150?u=a042581f4e29026704d"
   },
   {
     "ID": 3,
     "Category": "Warning",
     "Type": "Glow",
     "DateTimestamp": "2024-01-01 01:25:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA3"
+    "Image":"https://i.pravatar.cc/150?u=a042581f4e29026704d"
   },
   {
     "ID": 4,
     "Category": "Warning",
     "Type": "Glow",
     "DateTimestamp": "2024-01-01 01:59:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA4"
+    "Image": "https://i.pravatar.cc/150?u=a042581f4e29026704d"
   },
   {
     "ID": 5,
     "Category": "Defect",
     "Type": "Holes",
     "DateTimestamp": "2024-01-02 00:00:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA5"
+    "Image": "https://i.pravatar.cc/150?u=a042581f4e29026704d"
   },
   {
     "ID": 6,
     "Category": "Defect",
     "Type": "Folding",
     "DateTimestamp": "2024-01-02 01:24:00",
-    "Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA6"
+    "Image": "https://i.pravatar.cc/150?u=a042581f4e29026024d"
   },
   {
     "ID": 7,
