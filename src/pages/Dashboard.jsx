@@ -203,15 +203,30 @@ function Dashboard() {
           <PieChart data={filteredData} />
         </div>
       </div>
-
       {/* Heatmap Section */}
-      <div className="mt-6">
+       <div className="mt-6">
         <div className="bg-white shadow rounded-lg p-6">
-          <Heatmap rawData={filteredData} />
-        </div>
-      </div>
+           <Heatmap rawData={filteredData} />
+         </div>
+       </div>
+
     </div>
   );
 }
 
 export default Dashboard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     

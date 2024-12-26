@@ -97,7 +97,7 @@ const options = {
 
 
   return (
-    <div style={{ width: "100%", margin: "0 auto" }}>
+    <div style={{ width: "100%"}}>
       <Line data={lineChartData} options={options} />
     </div>
   );

@@ -37,14 +37,14 @@ const PieChart = ({ data }) => {
       legend: {
         position: "bottom",
         labels: {
-          boxWidth: 12,
-          padding: 10,
+          boxWidth: 8,
+          padding: 3,
         },
       },
     },
   };
   return (
-    <div className="flex flex-col items-center ">
+    <div >
       <div className="w-72 h-72">
         <Pie data={chartData} options={chartOptions} />
       </div>
