@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, { useState, useLayoutEffect, useEffect } from "react";
 import PieChart from "../components/PieChart";
 import LineChart from "../components/LineChart";
 import Heatmap from "../components/Heatmap";
@@ -8,12 +8,24 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
+  Image,
 } from "@nextui-org/react";
 import data from "../data/factory_output_stream_full_year.json";
 
 function Dashboard() {
   const [selectedFilter, setSelectedFilter] = useState("year");
   const [filteredData, setFilteredData] = useState(data);
+
+  const [imageStreaming, setImageStreaming] = useState("");
+
+
+
+  useEffect(() => {
+
+
+
+
+  }, []);
 
   const filterData = (timeframe) => {
     const currentDate = new Date();
@@ -60,10 +72,7 @@ function Dashboard() {
         {/* Video Section */}
         <div className="col-span-12 lg:col-span-8 rounded-lg">
           <div className="aspect-w-16 aspect-h-9 mb-5">
-            <video className="w-full h-[500px] rounded-lg" controls>
-              <source src="path-to-video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <img title="Video Stream" className="w-full h-[500px] rounded-lg" src={"http://192.168.1.228:32101/"}/>
           </div>
         </div>
 
