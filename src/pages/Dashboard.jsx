@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect, useEffect } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import PieChart from "../components/PieChart";
 import LineChart from "../components/LineChart";
 import Heatmap from "../components/Heatmap";
@@ -11,20 +11,23 @@ import {
   Image,
 } from "@nextui-org/react";
 import data from "../data/factory_output_stream_full_year.json";
+import { useNavigate } from "react-router-dom";
+import { get } from "../services/http";
 
 function Dashboard() {
   const [selectedFilter, setSelectedFilter] = useState("year");
   const [filteredData, setFilteredData] = useState(data);
 
   const [imageStreaming, setImageStreaming] = useState("");
+  const navigate = useNavigate();
 
+  useLayoutEffect(() => {
+    (async () => {
+      const res = await get("/api/config");
+      setImageStreaming(res.stream_url);
+    })();
 
-
-  useEffect(() => {
-
-
-
-
+    const eventSource = new EventSource(import.meta.env.VITE_BACKEND_URL + "/api/stream");
   }, []);
 
   const filterData = (timeframe) => {
@@ -68,11 +71,27 @@ function Dashboard() {
   return (
     <div className="min-h-screen px-4 py-6 sm:px-6 lg:px-8 bg-[#F3F3F3]">
       {/* First Row - Modified for 70-30 split */}
+
       <div className="grid grid-cols-12 gap-6">
         {/* Video Section */}
         <div className="col-span-12 lg:col-span-8 rounded-lg">
           <div className="aspect-w-16 aspect-h-9 mb-5">
-            <img title="Video Stream" className="w-full h-[500px] rounded-lg" src={"http://192.168.1.228:32101/"}/>
+            {imageStreaming ? (
+              <img
+                title="Video Stream"
+                className="w-full h-[500px] rounded-lg"
+                src={imageStreaming}
+              />
+            ) : (
+              <div className="text-center p-4 rounded-lg flex items-center justify-center h-[500px]">
+                <p className="text-yellow-700 font-medium">
+                  No image stream available. Please go to configurations and set
+                  it up.
+                </p>
+              </div>
+            )}
+
+            {/* <img title="Video Stream" className="w-full h-[500px] rounded-lg" src={imageStreaming}/> */}
           </div>
         </div>
 
@@ -202,40 +221,29 @@ function Dashboard() {
       </div>
 
       {/* Charts Section */}
-      <div className="grid grid-cols-12 gap-6 mb-6">
+      <div className="grid grid-cols-12 gap-6 mb-6  shadow-lg">
         <div className="col-span-12 lg:col-span-8 bg-white shadow rounded-lg p-6">
           <h2 className="text-xl font-bold mb-4">Line Chart</h2>
           <LineChart data={data} />
         </div>
-        <div className="col-span-12 lg:col-span-4 bg-white shadow rounded-lg p-6">
-          <h2 className="text-xl font-bold mb-4">Pie Chart</h2>
-          <PieChart data={filteredData} />
+
+        <div className="col-span-12 lg:col-span-4 bg-white shadow-lg rounded-lg p-8">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+            Pie Chart
+          </h2>
+          <div className="flex justify-center items-center">
+            <PieChart data={filteredData} />
+          </div>
         </div>
       </div>
       {/* Heatmap Section */}
-       <div className="mt-6">
-        <div className="bg-white shadow rounded-lg p-6">
-           <Heatmap rawData={filteredData} />
-         </div>
-       </div>
-
+      <div className="mt-6 ">
+        <div className="bg-white shadow rounded-lg p-6 ">
+          <Heatmap rawData={filteredData} />
+        </div>
+      </div>
     </div>
   );
 }
 
 export default Dashboard;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     

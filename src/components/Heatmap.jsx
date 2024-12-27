@@ -125,7 +125,7 @@ const Heatmap = ({ rawData }) => {
             xLabelsStyle={(index) => ({
               color: "#777",
               fontSize: "0.875rem",
-              marginTop: "12px",
+              marginLeft: "4px",
               fontWeight: "500",
             })}
             yLabelsStyle={() => ({
@@ -134,6 +134,7 @@ const Heatmap = ({ rawData }) => {
               color: "#777",
               marginRight: "16px",
               fontWeight: "500",
+              marginTop: "px",
             })}
             cellStyle={(_x, _y, ratio) => ({
               // background: calculateColor(ratio),

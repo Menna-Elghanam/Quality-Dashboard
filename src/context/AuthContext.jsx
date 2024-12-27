@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (token, role) => {
     localStorage.setItem("token", token);
-    setUser({ role });
+    setUser(role);
   };
 
   const logout = () => {

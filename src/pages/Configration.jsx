@@ -41,13 +41,19 @@ function Configration() {
         return;
       }
       
-      await post("/configuration", {
+      await post("/api/config", {
         streamUrl,
         aIUrl,
         secretKey,
       });
 
       setIsLoading(false);
+
+      toast.success("Configration Done Successfully",
+        {
+          position : "bottom-right",
+        }
+      );
 
 
       // console.log(response);
@@ -172,8 +178,8 @@ function Configration() {
               placeholder="Enter Confirm Password"
             />
             <Select label="Role" placeholder="Select Role" isRequired onChange={(e) => setRole(e.target.value)}>
-              <SelectItem key={"User"} value={"User"}></SelectItem>
-              <SelectItem key={"Admin"} value={"Admin"}></SelectItem>
+              <SelectItem key={"User"} value={"User"} title="User"></SelectItem>
+              <SelectItem key={"Admin"} value={"Admin"} title="Admin"></SelectItem>
               </Select>
           </Form>
         </CardBody>
