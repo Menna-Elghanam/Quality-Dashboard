@@ -33,7 +33,7 @@
 //   const filterData = (timeframe) => {
 //     const currentDate = new Date();
 //     const filteredResults = data.filter((item) => {
-//       const itemDate = new Date(item.DateTimestamp);
+//       const itemDate = new Date(item.timestamp);
 
 //       switch (timeframe) {
 //         case "week":
@@ -122,7 +122,7 @@
 //               <h2 className="text-2xl font-bold mb-2">Total Defects</h2>
 //               <p className="text-4xl font-extrabold">
 //                 {
-//                   filteredData.filter((item) => item.Category === "Defect")
+//                   filteredData.filter((item) => item.category === "Defect")
 //                     .length
 //                 }
 //               </p>
@@ -184,7 +184,7 @@
 //                 <p className="text-lg font-medium">Warning</p>
 //                 <h2 className="text-3xl font-extrabold">
 //                   {
-//                     filteredData.filter((item) => item.Category === "Warning")
+//                     filteredData.filter((item) => item.category === "Warning")
 //                       .length
 //                   }
 //                 </h2>
@@ -207,10 +207,10 @@
 //                       filteredData
 //                         .filter(
 //                           (item) =>
-//                             item.Category !== "Defect" &&
-//                             item.Category !== "Warning"
+//                             item.category !== "Defect" &&
+//                             item.category !== "Warning"
 //                         )
-//                         .map((item) => item.DateTimestamp.split(" ")[0])
+//                         .map((item) => item.timestamp.split(" ")[0])
 //                     ).size
 //                   }
 //                 </h2>
@@ -290,7 +290,7 @@ function Dashboard() {
     eventSource.onmessage = (event) => {
       const newData = JSON.parse(event.data);
       setFactoryData(prevData => {
-        const updatedData = [...prevData, newData];
+        const updatedData = [newData];
         filterData(selectedFilter, updatedData);
         return updatedData;
       });
@@ -308,8 +308,8 @@ function Dashboard() {
 
   const filterData = (timeframe, data = factoryData) => {
     const currentDate = new Date();
-    const filteredResults = data.filter((item) => {
-      const itemDate = new Date(item.DateTimestamp);
+    const filteredResults = data[0].filter((item) => {
+      const itemDate = new Date(item.timestamp);
 
       switch (timeframe) {
         case "week":
@@ -381,7 +381,7 @@ function Dashboard() {
               <img src="/bug.png" alt="Bug Icon" className="w-16 h-16 mb-4" />
               <h2 className="text-2xl font-bold mb-2">Total Defects</h2>
               <p className="text-4xl font-extrabold">
-                {filteredData.filter((item) => item.Category === "Defect").length}
+                {filteredData.filter((item) => item.category === "Defect").length}
               </p>
             </div>
 
@@ -394,7 +394,7 @@ function Dashboard() {
                 />
                 <div>
                   <p className="text-3xl font-extrabold text-[#FF6A55]">
-                    {filteredData.filter((item) => item.Type === "Holes").length}
+                    {filteredData.filter((item) => item.type === "Holes").length}
                   </p>
                   <h2 className="text-lg font-bold text-gray-700">
                     Total Holes
@@ -412,7 +412,7 @@ function Dashboard() {
                 />
                 <div>
                   <p className="text-3xl font-extrabold text-[#FF6A55]">
-                    {filteredData.filter((item) => item.Type === "Folding").length}
+                    {filteredData.filter((item) => item.type === "Folding").length}
                   </p>
                   <h2 className="text-lg font-bold text-gray-700">
                     Total Folding
@@ -432,7 +432,7 @@ function Dashboard() {
               <div>
                 <p className="text-lg font-medium">Warning</p>
                 <h2 className="text-3xl font-extrabold">
-                  {filteredData.filter((item) => item.Category === "Warning").length}
+                  {filteredData.filter((item) => item.category === "Warning").length}
                 </h2>
               </div>
             </div>
@@ -450,10 +450,10 @@ function Dashboard() {
                     filteredData
                       .filter(
                         (item) =>
-                          item.Category !== "Defect" &&
-                          item.Category !== "Warning"
+                          item.category !== "Defect" &&
+                          item.category !== "Warning"
                       )
-                      .map((item) => item.DateTimestamp.split(" ")[0])
+                      .map((item) => item.timestamp.split(" ")[0])
                   ).size}
                 </h2>
               </div>
