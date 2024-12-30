@@ -9,8 +9,8 @@ import {
   Select,
   SelectItem,
 } from "@nextui-org/react";
-import { useState } from "react";
-import { post } from "../services/http";
+import { useEffect, useState } from "react";
+import { post ,get} from "../services/http";
 import Loader from "../components/Loader";
 import { ToastContainer , toast } from "react-toastify";
 
@@ -26,6 +26,24 @@ function Configration() {
   const [role, setRole] = useState("");
 
   const [isLoading, setIsLoading] = useState();
+
+  useEffect(() => {
+    const fetchConfig = async () => {
+      try {
+      setIsLoading(true);
+      const res = await get("/api/config");
+      setStreamUrl(res.stream_url);
+      setAIUrl(res.AI_url);
+      setSecretKey(res.secret_key);
+      setIsLoading(false);
+      } catch (error) {
+        console.error(error);
+        setIsLoading(false);
+
+      }
+    };
+    fetchConfig();
+  }, []);
 
   async function handleSubmitConfigration() {
     try {
