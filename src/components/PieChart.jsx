@@ -1,60 +1,3 @@
-// import React from "react";
-// import { Pie } from "react-chartjs-2";
-// import {
-//   Chart as ChartJS,
-//   CategoryScale,
-//   ArcElement,
-//   Tooltip,
-//   Legend,
-// } from "chart.js";
-
-// // Register chart.js components
-// ChartJS.register(CategoryScale, ArcElement, Tooltip, Legend);
-
-// const PieChart = ({ data }) => {
-
-
-
-//   // Process data for the Pie chart (Count categories)
-//   const typeCounts = data.reduce((acc, item) => {
-//     acc[item.Type] = (acc[item.Type] || 0) + 1;
-//     return acc;
-//   }, {});
-
-//   // Prepare the chart data
-//   const chartData = {
-//     labels: Object.keys(typeCounts),
-//     datasets: [
-//       {
-//         data: Object.values(typeCounts),
-//         backgroundColor: ["#FFC350", "#006083", "#00AEEF"],
-//       },
-//     ],
-//   };
-//   // Chart options
-//   const chartOptions = {
-//     plugins: {
-//       legend: {
-//         position: "bottom",
-//         labels: {
-//           boxWidth: 8,
-//           padding: 3,
-//         },
-//       },
-//     },
-//   };
-//   return (
-//     <div >
-//       <div className="w-72 h-72 ">
-//         <Pie data={chartData} options={chartOptions} />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default PieChart;
-
-
 import React from "react";
 import { Pie } from "react-chartjs-2";
 import {
@@ -69,18 +12,14 @@ import {
 ChartJS.register(CategoryScale, ArcElement, Tooltip, Legend);
 
 const PieChart = ({ data }) => {
-  // Process data for the Pie chart (Count categories)
-  const typeCounts = data.reduce((acc, item) => {
-    acc[item.Type] = (acc[item.Type] || 0) + 1;
-    return acc;
-  }, {});
+
 
   // Prepare the chart data
   const chartData = {
-    labels: Object.keys(typeCounts),
+    labels: Object.keys(data),
     datasets: [
       {
-        data: Object.values(typeCounts),
+        data: Object.values(data),
         backgroundColor: ["#FFC350", "#006083", "#00AEEF"],
         borderWidth: 1,
         borderColor: "#ffffff", // Add white borders between segments

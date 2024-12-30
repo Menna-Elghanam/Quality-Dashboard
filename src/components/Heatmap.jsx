@@ -1,70 +1,87 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { HeatMapGrid } from "react-grid-heatmap";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { get, post } from "../services/http";
 
 // Helper function to process data by hour and day within the selected month and week
 
 
-const processData = (data, selectedMonth, weekOffset) => {
-  const xLabels = new Array(24).fill(0).map((_, i) => `${i}`);
-  const yLabels = [];
+// const processData = (data, selectedMonth, weekOffset) => {
+//   const xLabels = new Array(24).fill(0).map((_, i) => `${i}`);
+//   const yLabels = [];
 
-  const firstDayOfMonth = new Date(new Date().getFullYear(), selectedMonth, 1);
-  const startOfWeek = new Date(firstDayOfMonth);
-  startOfWeek.setDate(firstDayOfMonth.getDate() + weekOffset * 7);
-  startOfWeek.setHours(0, 0, 0, 0);
+//   const firstDayOfMonth = new Date(new Date().getFullYear(), selectedMonth, 1);
+//   const startOfWeek = new Date(firstDayOfMonth);
+//   startOfWeek.setDate(firstDayOfMonth.getDate() + weekOffset * 7);
+//   startOfWeek.setHours(0, 0, 0, 0);
 
-  const endOfWeek = new Date(startOfWeek);
-  endOfWeek.setDate(startOfWeek.getDate() + 6);
-  endOfWeek.setHours(23, 59, 59, 999);
+//   const endOfWeek = new Date(startOfWeek);
+//   endOfWeek.setDate(startOfWeek.getDate() + 6);
+//   endOfWeek.setHours(23, 59, 59, 999);
 
-  for (
-    let d = new Date(startOfWeek);
-    d <= endOfWeek;
-    d.setDate(d.getDate() + 1)
-  ) {
-    yLabels.push(
-      `${d.getDate()} ${d.toLocaleString("default", { month: "short" })}`
-    );
-  }
+//   for (
+//     let d = new Date(startOfWeek);
+//     d <= endOfWeek;
+//     d.setDate(d.getDate() + 1)
+//   ) {
+//     yLabels.push(
+//       `${d.getDate()} ${d.toLocaleString("default", { month: "short" })}`
+//     );
+//   }
 
-  const result = new Array(yLabels.length)
-    .fill(0)
-    .map(() => new Array(xLabels.length).fill(0));
+//   const result = new Array(yLabels.length)
+//     .fill(0)
+//     .map(() => new Array(xLabels.length).fill(0));
 
-  data.forEach((item) => {
-    const date = new Date(item.DateTimestamp);
-    if (
-      item.Category === "Defect" &&
-      date >= startOfWeek &&
-      date <= endOfWeek &&
-      date.getMonth() === selectedMonth
-    ) {
-      const hour = date.getHours();
-      const dayIndex = Math.floor((date - startOfWeek) / (1000 * 60 * 60 * 24));
-      if (dayIndex >= 0 && dayIndex < yLabels.length) {
-        result[dayIndex][hour]++;
-      }
-    }
-  });
+//   data.forEach((item) => {
+//     const date = new Date(item.DateTimestamp);
+//     if (
+//       item.Category === "Defect" &&
+//       date >= startOfWeek &&
+//       date <= endOfWeek &&
+//       date.getMonth() === selectedMonth
+//     ) {
+//       const hour = date.getHours();
+//       const dayIndex = Math.floor((date - startOfWeek) / (1000 * 60 * 60 * 24));
+//       if (dayIndex >= 0 && dayIndex < yLabels.length) {
+//         result[dayIndex][hour]++;
+//       }
+//     }
+//   });
 
-  return { xLabels, yLabels, result };
-};
+//   return { xLabels, yLabels, result };
+// };
 
-const Heatmap = ({ rawData }) => {
+const Heatmap = () => {
   const [selectedMonth, setSelectedMonth] = useState(new Date().getMonth());
   const [weekOffset, setWeekOffset] = useState(0);
+  const [heatMapData, setHeatMapData] = useState([[]]);
 
-  const {
-    xLabels,
-    yLabels,
-    result: data,
-  } = processData(rawData, selectedMonth, weekOffset);
+  // const {
+  //   xLabels,
+  //   yLabels,
+  //   result: data,
+  // } = processData(rawData, selectedMonth, weekOffset);
 
-  const handleMonthChange = (event) => {
-    setSelectedMonth(Number(event.target.value));
-    setWeekOffset(0);
-  };
+  // const handleMonthChange = (event) => {
+  //   setSelectedMonth(Number(event.target.value));
+  //   setWeekOffset(0);
+  // };
+
+  useEffect(() => {
+    const fetchHeatMap = async () => {
+      try {
+        const response = await get("/api/defects/heatmap");
+        
+
+
+        console.log(response);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    }
+    fetchHeatMap();
+  }, []);
 
   return (
     <div className="w-full relative">
@@ -83,7 +100,7 @@ const Heatmap = ({ rawData }) => {
           <select
             id="month-select"
             value={selectedMonth}
-            onChange={handleMonthChange}
+            // onChange={handleMonthChange}
             className="p-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
             {Array.from({ length: 12 }, (_, i) => (
@@ -114,9 +131,9 @@ const Heatmap = ({ rawData }) => {
       <div className="w-full px-8 md:px-12 overflow-x-auto">
         <div className="min-w-[768px] w-full">
           <HeatMapGrid
-            data={data}
-            xLabels={xLabels}
-            yLabels={yLabels}
+            data={heatMapData}
+            // xLabels={xLabels}
+            // yLabels={yLabels}
             cellRender={(x, y, value) => (
               <div className="flex items-center justify-center w-full h-full">
                 {value ? value : 0}

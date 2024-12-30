@@ -155,11 +155,11 @@ const Login = () => {
               </Button>
             </div>
 
-            {action && (
+            {/* {action && (
               <div className="text-small text-default-500 mt-4 p-2 bg-default-100 rounded-medium">
                 Status: <code>{action}</code>
               </div>
-            )}
+            )} */}
 
             <div className="text-center text-sm text-default-500 mt-4">
               Don't have an account?{" "}

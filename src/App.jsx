@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./components/Layout";
-import Records from "./pages/Records";
+import Records from "./pages/Records.jsx";
 import Configration from "./pages/Configration";
 import Login from "./pages/Login";
 import Unauthorized from "./pages/Unauthorized ";
