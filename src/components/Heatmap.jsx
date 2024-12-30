@@ -98,9 +98,9 @@ const Heatmap = () => {
               fontSize: "0.75rem",
               textTransform: "uppercase",
               color: "#777",
-              marginRight: "16px",
+              // marginRight: "16px",
               fontWeight: "500",
-              marginTop: "px",
+              marginBottom: "5px",
             })}
             cellStyle={(_x, _y, ratio) => ({
               // background: calculateColor(ratio),

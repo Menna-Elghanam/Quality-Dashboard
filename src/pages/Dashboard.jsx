@@ -209,7 +209,7 @@ function Dashboard() {
       <div className="grid grid-cols-12 gap-6 mb-6 shadow-lg">
         <div className="col-span-12 lg:col-span-8 bg-white shadow rounded-lg p-6">
           <h2 className="text-xl font-bold mb-4">Line Chart</h2>
-          <LineChart data={filteredData} />
+          <LineChart data={defects} />
         </div>
 
         <div className="col-span-12 lg:col-span-4 bg-white shadow-lg rounded-lg p-8">

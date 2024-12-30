@@ -1,222 +1,133 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from "chart.js";
+import moment from "moment";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 
-// Register chart.js components
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 const LineChart = ({ data }) => {
-  // Process the data to group counts by month and category
-  const processChartData = (data) => {
-    const monthlyCounts = {
-      Defect: Array(12).fill(0),
-      Warning: Array(12).fill(0),
-    };
+  const processChartData = (defects) => {
+    if (!defects || typeof defects !== "object") {
+      return { labels: [], defectsData: [], warningsData: [] };
+    }
 
-    data.forEach((item) => {
-      const month = new Date(item.DateTimestamp).getMonth(); // Extract month (0-11)
-      if (item.Category === "Defect") {
-        monthlyCounts.Defect[month] += 1;
-      } else if (item.Category === "Warning") {
-        monthlyCounts.Warning[month] += 1;
+    // Generate labels dynamically for all months
+    const labels = moment.monthsShort();
+
+    const defectsData = Array(12).fill(0);
+    const warningsData = Array(12).fill(0);
+
+    // Map defects to month indexes
+    const defectEntries = [
+      {
+        timestamp: new Date().toISOString(),
+        category: "Defect",
+        count: defects.total || 0,
+      },
+      {
+        timestamp: new Date().toISOString(),
+        category: "Warning",
+        count: defects.warning || 0,
+      },
+    ];
+
+    defectEntries.forEach((item) => {
+      const monthIndex = moment(item.timestamp).month();
+      if (item.category === "Defect") {
+        defectsData[monthIndex] += item.count;
+      } else if (item.category === "Warning") {
+        warningsData[monthIndex] += item.count;
       }
     });
 
-    return monthlyCounts;
+    return { labels, defectsData, warningsData };
   };
 
   const chartData = processChartData(data);
 
-  // Define the data for the chart
   const lineChartData = {
-    labels: [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ],
+    labels: chartData.labels,
     datasets: [
       {
         label: "Defects",
-        data: chartData.Defect,
-        borderColor: "#038C8C",
-        backgroundColor: "rgba(75, 192, 192, 0.2)",
-        borderWidth: 2,
-        tension: 0.4, // Smooth line
+        data: chartData.defectsData,
+        borderColor: "#FF6A55",
+        backgroundColor: "rgba(255, 106, 85, 0.5)",
+        pointStyle: "circle",
+        pointRadius: 6,
+        tension: 0.4,
       },
       {
         label: "Warnings",
-        data: chartData.Warning,
-        borderColor: "#022859",
-        backgroundColor: "#ffffff",
-        borderWidth: 2,
-        tension: 0.4, // Smooth line
+        data: chartData.warningsData,
+        borderColor: "#E6B454",
+        backgroundColor: "rgba(230, 180, 84, 0.5)",
+        pointStyle: "circle",
+        pointRadius: 6,
+        tension: 0.4,
       },
     ],
   };
 
-// Define chart options
-const options = {
-  responsive: true,
-  plugins: {
-    legend: {
-      position: "top",
-    }
-  },
-  scales: {
-    x: {
-      grid: {
-        display: false, // Remove vertical grid lines
-      },
-      title: {
-        display: true,
-        text: "Month",
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top",
+        align: "end",
+        labels: {
+          boxWidth: 12,
+
+          usePointStyle: true, // Circle points in the legend
+          font: {
+            size: 14,
+            family: "Arial, sans-serif",
+          },
+        },
       },
     },
-    y: {
-      grid: {
-        drawBorder: false,
-        color: (context) => (context.index % 2 === 0 ? "#f0f0f0" : "#e0e0e0"), // Alternating grid lines
-        drawTicks: true,
+    scales: {
+      x: {
+        title: {
+          display: true,
+          text: "Months",
+        },
+        grid: {
+          display: false, // Remove vertical grid lines
+        },
       },
-      title: {
-        display: true,
-        text: "Count",
+      y: {
+        title: {
+          display: true,
+          text: "Counts",
+        },
+        beginAtZero: true,
+        grid: {
+          drawBorder: false,
+          color: "rgba(200, 200, 200, 0.2)", // Horizontal grid lines only
+        },
       },
     },
-  },
-};
+  };
 
-
-  return (
-    <div style={{ width: "100%"}}>
-      <Line data={lineChartData} options={options} />
-    </div>
-  );
+  return <Line data={lineChartData} options={options} />;
 };
 
 export default LineChart;
-
-
-
-
-// import React from "react";
-// import { Line } from "react-chartjs-2";
-// import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler } from "chart.js";
-
-// // Register chart.js components
-// ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler);
-
-// const LineChart = ({ data }) => {
-//   // Process the data to group counts by month and category
-//   const processChartData = (data) => {
-//     const monthlyCounts = {
-//       Defect: Array(12).fill(0),
-//       Warning: Array(12).fill(0),
-//     };
-
-//     data.forEach((item) => {
-//       const month = new Date(item.DateTimestamp).getMonth(); // Extract month (0-11)
-//       if (item.Category === "Defect") {
-//         monthlyCounts.Defect[month] += 1;
-//       } else if (item.Category === "Warning") {
-//         monthlyCounts.Warning[month] += 1;
-//       }
-//     });
-
-//     // Adjust "Warning" values to be cumulative above "Defect"
-//     const cumulativeWarnings = monthlyCounts.Warning.map(
-//       (count, index) => count + monthlyCounts.Defect[index]
-//     );
-
-//     return {
-//       Defect: monthlyCounts.Defect,
-//       Warning: cumulativeWarnings,
-//     };
-//   };
-
-//   const chartData = processChartData(data);
-
-//   // Define the data for the chart
-//   const lineChartData = {
-//     labels: [
-//       "Jan",
-//       "Feb",
-//       "Mar",
-//       "Apr",
-//       "May",
-//       "Jun",
-//       "Jul",
-//       "Aug",
-//       "Sep",
-//       "Oct",
-//       "Nov",
-//       "Dec",
-//     ],
-//     datasets: [
-//       {
-//         label: "Defects",
-//         data: chartData.Defect,
-//         borderColor: "#022859",
-//         backgroundColor: "#EAFAFE",
-//         borderWidth: 2,
-//         tension: 0.4, // Smooth line
-//         fill: true, // Fill the area under the line
-//       },
-//       {
-//         label: "Warnings",
-//         data: chartData.Warning,
-//         borderColor: "#038C8C",
-//         backgroundColor: "#F5FEF8",
-//         borderWidth: 2,
-//         tension: 0.4, // Smooth line
-//         fill: true, // Fill the area under the line
-//       },
-//     ],
-//   };
-
-//   // Define chart options
-//   const options = {
-//     responsive: true,
-//       maintainAspectRatio: false,
-//     plugins: {
-//       legend: {
-//         position: "top",
-//       },
-//     },
-//     scales: {
-//       y: {
-//         stacked: true, // Stack the areas
-//         title: {
-//           display: true,
-//           text: "Count",
-//         },
-//       },
-//       x: {
-//         grid: {
-//           display: false, // Remove vertical grid lines
-//         },
-//         title: {
-//           display: true,
-//           text: "Month",
-//         },
-//       },
-//     },
-//   };
-
-//   return (
-//     <div style={{ width: "100%",height:"300px", margin: "0 auto" }}>
-//       <Line data={lineChartData} options={options} />
-//     </div>
-//   );
-// };
-
-// export default LineChart;

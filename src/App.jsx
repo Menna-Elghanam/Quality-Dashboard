@@ -6,15 +6,16 @@ import Configration from "./pages/Configration";
 import Login from "./pages/Login";
 import Unauthorized from "./pages/Unauthorized ";
 import Dashboard from "./pages/Dashboard";
+import { AuthProvider } from "./context/AuthContext.jsx";
 
 function App() {
   return (
+    <AuthProvider>
     <Router>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/unauthorized" element={<Unauthorized />} />
 
-        {/* Layout with NextUI Tabs */}
         <Route element={<Layout />}>
           <Route
             path="/dashboard"
@@ -43,6 +44,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    </AuthProvider>
   );
 }
 
