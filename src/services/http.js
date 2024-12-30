@@ -15,9 +15,11 @@ http.interceptors.request.use((config) => {
   return config;
 });
 
-async function get(url) {
+async function get(url, params) {
   try {
-    const response = await http.get(url);
+    const response = await http.get(url,{
+      params : params
+    });
     return response.data;
   } catch (error) {
     return Promise.reject(error);
