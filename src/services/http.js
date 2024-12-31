@@ -2,9 +2,9 @@ import axios from "axios";
 
 const http = axios.create({
   baseURL: import.meta.env.VITE_BACKEND_URL,
-  headers: {
-    "Content-type": "application/json",
-  },
+  // headers: {
+  //   "Content-type": "application/json",
+  // },
 });
 
 http.interceptors.request.use((config) => {
@@ -15,10 +15,13 @@ http.interceptors.request.use((config) => {
   return config;
 });
 
-async function get(url, params) {
+async function get(url, params, responseType) {
   try {
     const response = await http.get(url,{
-      params : params
+      params : params,
+      responseType // Important for downloading files
+
+      
     });
     return response.data;
   } catch (error) {
