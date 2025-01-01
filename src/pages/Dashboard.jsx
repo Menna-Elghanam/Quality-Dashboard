@@ -110,38 +110,39 @@ function Dashboard() {
                   <img
                     src="/bug.png"
                     alt="Bug Icon"
-                    className="w-10 h-10 mb-2"
+                    className="w-12 h-12 mb-2"
                   />
-                  <h2 className="text-base font-bold">Total Defects</h2>
-                  <p className="text-2xl font-bold">{defects.total}</p>
+                  <h2 className="text-2xl font-bold">Total Defects</h2>
+                  <p className="text-4xl font-bold">{defects.total}</p>
                 </div>
                 <div className="col-span-3 p-3 flex flex-col justify-center space-y-4">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center  gap-5">
                     <img
                       src="/Group 44.png"
                       alt="Holes Icon"
-                      className="w-8 h-8"
+                      className="w-10 h-10 mx-2"
                     />
                     <div>
                       <p className="text-xl font-bold text-[#FF6A55]">
                         {defects.holes}
                       </p>
-                      <h3 className="text-sm font-medium text-gray-700">
+                      <h3 className="text-xl font-medium text-gray-700">
                         Total Holes
                       </h3>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3">
+                  <hr />
+                  <div className="flex items-center gap-5">
                     <img
                       src="/Group 48.png"
                       alt="Folding Icon"
-                      className="w-8 h-8"
+                      className="w-10 h-10 mx-2"
                     />
                     <div>
                       <p className="text-xl font-bold text-[#FF6A55]">
                         {defects.folding}
                       </p>
-                      <h3 className="text-sm font-medium text-gray-700">
+                      <h3 className="text-xl font-medium text-gray-700">
                         Total Folding
                       </h3>
                     </div>
@@ -150,17 +151,17 @@ function Dashboard() {
               </div>
 
               {/* Warning and Clean Days Cards */}
-              <div className="grid grid-cols-2 gap-3 flex-1">
+              <div className="grid grid-cols-2 gap-2 flex-1">
                 <div className="bg-[#E6B454] rounded-lg p-3 text-white flex items-center">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-6">
                     <img
                       src="/Group 44 (1).png"
                       alt="Warning Icon"
-                      className="w-8 h-8"
+                      className="w-14 h-14"
                     />
                     <div>
-                      <p className="text-sm font-medium">Warning</p>
-                      <h2 className="text-2xl font-bold">{defects.warning}</h2>
+                      <p className="text-2xl font-medium">Warning</p>
+                      <h2 className="text-5xl font-bold m-2">{defects.warning}</h2>
                     </div>
                   </div>
                 </div>
@@ -169,11 +170,11 @@ function Dashboard() {
                     <img
                       src="/fi-rr-shield-check.png"
                       alt="Clean Days Icon"
-                      className="w-8 h-8"
+                      className="w-14 h-14"
                     />
                     <div>
-                      <p className="text-sm font-medium">Clean Days</p>
-                      <h2 className="text-2xl font-bold">
+                      <p className="text-2xl font-medium">Clean Days</p>
+                      <h2 className="text-5xl font-bold mx-5">
                         {
                           new Set(
                             filteredData
