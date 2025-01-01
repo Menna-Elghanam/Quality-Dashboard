@@ -16,12 +16,14 @@ import { MdEmail, MdLock, MdLogin } from "react-icons/md";
 const Login = () => {
   const [action, setAction] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
   const { login } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setError("");
 
     const formData = Object.fromEntries(new FormData(e.currentTarget));
     setAction(`Processing login: ${JSON.stringify(formData)}`);
@@ -36,10 +38,13 @@ const Login = () => {
           },
         }
       );
-      login(res.data.token, res.data.role); // Save token and role
+      
+      // Now we only pass the token, role will be extracted from it
+      login(res.data.token);
       navigate("/dashboard");
     } catch (error) {
       console.error(error);
+      setError(error.response?.data?.message || "Login failed. Please try again.");
       setAction(`Login failed: ${error.message}`);
     } finally {
       setIsLoading(false);

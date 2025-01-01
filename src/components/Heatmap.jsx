@@ -54,7 +54,7 @@ const Heatmap = () => {
           <select
             id="month-select"
             value={selectedMonth}
-            // onChange={handleMonthChange}
+            onChange={setSelectedMonth}
             className="p-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
             {Array.from({ length: 12 }, (_, i) => (
