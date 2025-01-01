@@ -28,13 +28,10 @@ const LineChart = ({ data }) => {
       return { labels: [], defectsData: [], warningsData: [] };
     }
 
-    // Generate labels dynamically for all months
     const labels = moment.monthsShort();
-
     const defectsData = Array(12).fill(0);
     const warningsData = Array(12).fill(0);
 
-    // Map defects to month indexes
     const defectEntries = [
       {
         timestamp: new Date().toISOString(),
@@ -71,7 +68,7 @@ const LineChart = ({ data }) => {
         borderColor: "#FF6A55",
         backgroundColor: "rgba(255, 106, 85, 0.5)",
         pointStyle: "circle",
-        pointRadius: 6,
+        pointRadius: 4,
         tension: 0.4,
       },
       {
@@ -80,7 +77,7 @@ const LineChart = ({ data }) => {
         borderColor: "#E6B454",
         backgroundColor: "rgba(230, 180, 84, 0.5)",
         pointStyle: "circle",
-        pointRadius: 6,
+        pointRadius: 4,
         tension: 0.4,
       },
     ],
@@ -88,40 +85,45 @@ const LineChart = ({ data }) => {
 
   const options = {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         position: "top",
         align: "end",
         labels: {
-          boxWidth: 12,
-
-          usePointStyle: true, // Circle points in the legend
+          boxWidth: 10,
+          padding: 8,
           font: {
-            size: 14,
+            size: 12,
             family: "Arial, sans-serif",
           },
         },
       },
+      tooltip: {
+        padding: 8,
+        bodyFont: { size: 12 },
+      },
     },
     scales: {
       x: {
-        title: {
-          display: true,
-          text: "Months",
-        },
         grid: {
-          display: false, // Remove vertical grid lines
+          display: false,
+        },
+        ticks: {
+          font: {
+            size: 10,
+          },
         },
       },
       y: {
-        title: {
-          display: true,
-          text: "Counts",
-        },
         beginAtZero: true,
         grid: {
-          drawBorder: false,
-          color: "rgba(200, 200, 200, 0.2)", // Horizontal grid lines only
+          color: "rgba(200, 200, 200, 0.2)",
+        },
+        ticks: {
+          font: {
+            size: 10,
+          },
         },
       },
     },

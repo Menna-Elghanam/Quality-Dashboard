@@ -48,7 +48,7 @@ import { useAuth } from "../context/AuthContext";
 function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { user } = useAuth(); // Access user role from AuthContext
+  const { user } = useAuth(); 
 
   // Map routes to tab keys
   const tabKeyMap = {
