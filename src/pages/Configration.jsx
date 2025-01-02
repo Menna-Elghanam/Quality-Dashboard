@@ -15,7 +15,7 @@ import Loader from "../components/Loader";
 import { ToastContainer , toast } from "react-toastify";
 
 function Configration() {
-  const [streamUrl, setStreamUrl] = useState("");
+  // const [streamUrl, setStreamUrl] = useState("");
   const [aIUrl, setAIUrl] = useState("");
   const [secretKey, setSecretKey] = useState("");
 
@@ -32,7 +32,7 @@ function Configration() {
       try {
       setIsLoading(true);
       const res = await get("/api/config");
-      setStreamUrl(res.stream_url);
+      // setStreamUrl(res.stream_url);
       setAIUrl(res.AI_url);
       setSecretKey(res.secret_key);
       setIsLoading(false);
@@ -49,7 +49,7 @@ function Configration() {
     try {
       setIsLoading(true);
 
-      if (!streamUrl || !aIUrl || !secretKey) {
+      if ( !aIUrl || !secretKey) {
         toast.error("All fields are required",
           {
             position : "bottom-right",
@@ -140,12 +140,12 @@ function Configration() {
         <CardHeader>Configration</CardHeader>
         <CardBody>
           <Form isRequired onSubmit={handleSubmitConfigration} className="grid grid-cols-2 gap-6">
-            <Input
+            {/* <Input
               isRequired
               onChange={(e) => setStreamUrl(e.target.value)}
               label="Stream Url"
               placeholder="Enter your Stream Url"
-            />
+            /> */}
             <Input
               isRequired
               onChange={(e) => setAIUrl(e.target.value)}

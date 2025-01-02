@@ -10,14 +10,19 @@ import {
 } from "@nextui-org/react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 import { MdEmail, MdLock, MdLogin } from "react-icons/md";
+import { post } from "../services/http";
+import { useLayoutEffect } from "react";
 
 const Login = () => {
   const [action, setAction] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-  const { login } = useAuth();
+  const { user,login } = useAuth();
   const navigate = useNavigate();
+
+  useLayoutEffect(() => {
+    localStorage.getItem("token") && navigate("/dashboard");
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,16 +32,11 @@ const Login = () => {
     setAction(`Processing login: ${JSON.stringify(formData)}`);
 
     try {
-      const res = await axios.post(
-        "http://localhost:3000/api/auth/login",
-        JSON.stringify(formData),
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
+      const res = await post(
+        "/api/auth/login",
+        formData,
       );
-      login(res.data.token, res.data.role); // Save token and role
+      login(res.token, res.role); 
       navigate("/dashboard");
     } catch (error) {
       console.error(error);
@@ -106,18 +106,6 @@ const Login = () => {
                 startContent={!isLoading && <MdLogin className="text-xl" />}
               >
                 {isLoading ? "loging in..." : "Log in"}
-              </Button>
-            </div>
-
-            <div className="text-center text-sm text-default-500 mt-4">
-              Don't have an account?{" "}
-              <Button
-                as="a"
-                href="/signup"
-                variant="light"
-                className="text-primary"
-              >
-                Sign up
               </Button>
             </div>
           </Form>

@@ -8,6 +8,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
+  Image,
 } from "@nextui-org/react";
 import { useNavigate } from "react-router-dom";
 import { get } from "../services/http";
@@ -28,7 +29,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchConfig = async () => {
       const res = await get("/api/config");
-      setImageStreaming(res.stream_url);
+      setImageStreaming(res.AI_url);
     };
     fetchConfig();
     const eventSourceRef = new EventSource(
@@ -84,13 +85,19 @@ function Dashboard() {
           {/* First Row - Video Stream and Stats */}
           <div className="flex gap-3 h-[55%]">
             {/* Video Stream */}
-            <div className="flex-[2] bg-white rounded-lg p-2">
+            <div className="flex-[2] h-[25.9rem]   rounded-lg p-2">
               {imageStreaming ? (
-                <img
+                <Image
                   title="Video Stream"
                   className="w-full h-full object-cover rounded-lg"
                   src={imageStreaming}
                   alt="stream"
+                  onError={ (e) =>{
+                    console.log(e.target.src)
+                    console.log(e, "error");
+
+                     e.target.src = "/no-image.png"
+                    } }
                 />
               ) : (
                 <div className="h-full flex items-center justify-center">

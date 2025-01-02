@@ -18,9 +18,12 @@ import {
   ModalBody,
   ModalFooter,
   useDisclosure,
+  Pagination,
+  DatePicker
 } from "@nextui-org/react";
 import { get } from "../services/http";
 import { handleDownload } from "../utils/file-download";
+import { time } from "framer-motion";
 
 const columns = [
   { name: "ID", uid: "id", sortable: true },
@@ -32,11 +35,26 @@ const columns = [
 
 export default function Records() {
   const [filterValue, setFilterValue] = useState("");
-  const [statusFilter, setStatusFilter] = useState(new Set());
   const [selectedImage, setSelectedImage] = useState(null);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [factoryData, setFactoryData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState();
+  const [pages, setPages] = useState();
+  const [total, setTotal] = useState();
+  const [rowsPerPage, setRowsPerPage] = useState(5);
+  // const [searchTimeout, setSearchTimeout] = useState(null);
+  const [date, setDate] = useState();
+  
+
+
+  const rowsPerPageOptions = [
+    { key: "5", value: 5 },
+    { key: "10", value: 10 },
+    { key: "15", value: 15 },
+    { key: "20", value: 20 },
+    { key: "25", value: 25 },
+  ];
 
   const [sortDescriptor, setSortDescriptor] = useState({
     column: "id",
@@ -47,11 +65,21 @@ export default function Records() {
     const fetchRecords = async () => {
       try {
         setLoading(true);
-        const baseUrl =
-          import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
+        const response = await get("/api/defects/page",{
+          page: page,
+          limit: rowsPerPage,
+          // type : 
+          search: filterValue,
+          timestamp : date,
+          
 
-        const response = await get("/api/defects/page");
+        });
         setFactoryData(response.defects);
+        setPages(response.totalPages);
+        setPage(response.currentPage);
+        setTotal(response.total);
+        
+        setLoading(false);
       } catch (error) {
         console.error("Failed to fetch records:", error);
         setFactoryData([]);
@@ -61,21 +89,25 @@ export default function Records() {
     };
 
     fetchRecords();
-  }, []);
+  }, [page ,filterValue,date,]);
 
   // Filter items based on search and category filter
-  const filteredItems = factoryData.filter((item) => {
-    const matchesSearch =
-      !filterValue ||
-      Object.values(item).some((value) =>
-        String(value).toLowerCase().includes(filterValue.toLowerCase())
-      );
+  // const filteredItems = factoryData.filter((item) => {
+  //   const matchesSearch =
+  //     !filterValue ||
+  //     Object.values(item).some((value) =>
+  //       String(value).toLowerCase().includes(filterValue.toLowerCase())
+  //     );
 
-    const matchesCategory =
-      statusFilter.size === 0 || statusFilter.has(item.category);
+  //   const matchesCategory =
+  //     statusFilter.size === 0 || statusFilter.has(item.category);
 
-    return matchesSearch && matchesCategory;
-  });
+  //   return matchesSearch && matchesCategory;
+  // });
+
+
+
+  
 
   const renderCell = (item, columnKey) => {
     switch (columnKey) {
@@ -97,7 +129,7 @@ export default function Records() {
         return (
           <div className="flex justify-center">
             <img
-              src={item[columnKey]}
+              src={import.meta.env.VITE_BACKEND_URL+"/"+item[columnKey]}
               alt="Preview"
               className="w-12 h-12 rounded object-cover shadow-sm hover:shadow-md transition-shadow duration-200 cursor-pointer"
               onClick={() => handleImageClick(item[columnKey])}
@@ -120,7 +152,6 @@ export default function Records() {
     onOpen();
   };
 
-  const baseUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
 
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg">
@@ -130,7 +161,10 @@ export default function Records() {
             placeholder="Search records..."
             size="sm"
             value={filterValue}
-            onValueChange={setFilterValue}
+            onValueChange={(value) => {
+              setFilterValue(value);
+              setPage(1);
+            }}
             isClearable
             onClear={() => setFilterValue("")}
             className="w-full"
@@ -152,7 +186,7 @@ export default function Records() {
         </div>
 
         <div className="flex gap-2">
-          <Dropdown>
+          {/* <Dropdown>
             <DropdownTrigger>
               <Button
                 size="sm"
@@ -176,11 +210,11 @@ export default function Records() {
                 Defect
               </DropdownItem>
             </DropdownMenu>
-          </Dropdown>
+          </Dropdown> */}
           <Dropdown>
             <DropdownTrigger>
               <Button
-                size="sm"
+                size="lg"
                 variant="flat"
                 className="bg-blue-50  hover:bg-blue-100 transition-colors duration-200"
               >
@@ -199,6 +233,7 @@ export default function Records() {
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
+          <DatePicker onChange={setDate} label="Date" size="sm" radius="md" />
         </div>
       </div>
 
@@ -222,7 +257,7 @@ export default function Records() {
             )}
           </TableHeader>
           <TableBody
-            items={filteredItems}
+            items={factoryData}
             emptyContent={loading ? "Loading..." : "No records found"}
             loadingContent="Loading..."
             loadingState={loading ? "loading" : "idle"}
@@ -242,6 +277,19 @@ export default function Records() {
           </TableBody>
         </Table>
       </div>
+      <div className="mt-6 flex justify-between items-center">
+        <p className="text-sm text-gray-600">
+          Showing {(page - 1) * rowsPerPage + 1} to{" "}
+          {Math.min(page * rowsPerPage -1)} of{" "}
+          {total} entries
+        </p>
+        <Pagination
+          page={page}
+          total={pages}
+          onChange={setPage}
+          className="flex gap-2 "
+        />
+      </div>
 
       <Modal isOpen={isOpen} onClose={onClose} size="2xl">
         <ModalContent>
@@ -253,7 +301,7 @@ export default function Records() {
               <ModalBody>
                 <div className="flex justify-center">
                   <img
-                    src={selectedImage}
+                    src={import.meta.env.VITE_BACKEND_URL+"/"+selectedImage}
                     alt="Full size preview"
                     className="max-w-full h-auto rounded-lg"
                   />
