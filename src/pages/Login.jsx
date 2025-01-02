@@ -27,6 +27,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
+    setError("");
 
     const formData = Object.fromEntries(new FormData(e.currentTarget));
     setAction(`Processing login: ${JSON.stringify(formData)}`);
@@ -40,6 +41,7 @@ const Login = () => {
       navigate("/dashboard");
     } catch (error) {
       console.error(error);
+      setError(error.response?.data?.message || "Login failed. Please try again.");
       setAction(`Login failed: ${error.message}`);
     } finally {
       setIsLoading(false);
